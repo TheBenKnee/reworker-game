@@ -1,0 +1,2473 @@
+fileFormatVersion: 2
+guid: 2e0f79584606d24429d68ab4e9713c2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8248970620316445704
+    second: RPG_UI_Sheet_0
+  - first:
+      213: 2146358154364547820
+    second: RPG_UI_Sheet_1
+  - first:
+      213: 9182693827327022962
+    second: RPG_UI_Sheet_2
+  - first:
+      213: -2713520236394142322
+    second: RPG_UI_Sheet_3
+  - first:
+      213: -1014010482354222864
+    second: RPG_UI_Sheet_4
+  - first:
+      213: -2599696924464937095
+    second: RPG_UI_Sheet_6
+  - first:
+      213: -2016414910817131786
+    second: RPG_UI_Sheet_9
+  - first:
+      213: -3547819355760445495
+    second: RPG_UI_Sheet_10
+  - first:
+      213: -3482479655512008353
+    second: RPG_UI_Sheet_11
+  - first:
+      213: -1322812272203956346
+    second: RPG_UI_Sheet_12
+  - first:
+      213: 1975455950547454918
+    second: RPG_UI_Sheet_13
+  - first:
+      213: 6078998178552682845
+    second: RPG_UI_Sheet_14
+  - first:
+      213: 5826467750416577783
+    second: RPG_UI_Sheet_15
+  - first:
+      213: -7804189589825823435
+    second: RPG_UI_Sheet_16
+  - first:
+      213: -7298696738280858782
+    second: RPG_UI_Sheet_17
+  - first:
+      213: 4557989160350981921
+    second: RPG_UI_Sheet_24
+  - first:
+      213: 1796976425289047966
+    second: RPG_UI_Sheet_25
+  - first:
+      213: -1904408285424088473
+    second: RPG_UI_Sheet_26
+  - first:
+      213: 6642902509005953539
+    second: RPG_UI_Sheet_27
+  - first:
+      213: 2374295888821310534
+    second: RPG_UI_Sheet_28
+  - first:
+      213: -1459850110947076227
+    second: RPG_UI_Sheet_29
+  - first:
+      213: -5174159392764365647
+    second: RPG_UI_Sheet_30
+  - first:
+      213: 8151828773090434204
+    second: RPG_UI_Sheet_39
+  - first:
+      213: -5073908927322219966
+    second: RPG_UI_Sheet_40
+  - first:
+      213: -4812879854747420846
+    second: RPG_UI_Sheet_41
+  - first:
+      213: 2046641784962889439
+    second: RPG_UI_Sheet_42
+  - first:
+      213: -2703630825998359917
+    second: RPG_UI_Sheet_43
+  - first:
+      213: 3128664970397691475
+    second: RPG_UI_Sheet_50
+  - first:
+      213: 116297431106113476
+    second: RPG_UI_Sheet_51
+  - first:
+      213: -5996332297797625680
+    second: RPG_UI_Sheet_52
+  - first:
+      213: -4114745815505390280
+    second: RPG_UI_Sheet_53
+  - first:
+      213: 1674137042141559902
+    second: RPG_UI_Sheet_54
+  - first:
+      213: -1124178294697726355
+    second: RPG_UI_Sheet_55
+  - first:
+      213: -5585065691062295115
+    second: RPG_UI_Sheet_56
+  - first:
+      213: -7898426410934134307
+    second: RPG_UI_Sheet_64
+  - first:
+      213: -7578943297354575010
+    second: RPG_UI_Sheet_65
+  - first:
+      213: 4827684634114013869
+    second: RPG_UI_Sheet_66
+  - first:
+      213: -3855259170797361630
+    second: RPG_UI_Sheet_67
+  - first:
+      213: -8858318474513994385
+    second: RPG_UI_Sheet_68
+  - first:
+      213: -5256028314429433295
+    second: RPG_UI_Sheet_69
+  - first:
+      213: -5450353981802400329
+    second: RPG_UI_Sheet_75
+  - first:
+      213: -2641490507344272964
+    second: RPG_UI_Sheet_77
+  - first:
+      213: 8560933750712047390
+    second: RPG_UI_Sheet_78
+  - first:
+      213: -8623669636689143432
+    second: RPG_UI_Sheet_79
+  - first:
+      213: -7564999813444841573
+    second: RPG_UI_Sheet_80
+  - first:
+      213: 6358186070236021939
+    second: RPG_UI_Sheet_81
+  - first:
+      213: 747824332622102833
+    second: RPG_UI_Sheet_82
+  - first:
+      213: 1202689125610361714
+    second: RPG_UI_Sheet_86
+  - first:
+      213: 6022272496627641922
+    second: RPG_UI_Sheet_89
+  - first:
+      213: -977650559419345582
+    second: RPG_UI_Sheet_90
+  - first:
+      213: 6298863720898872566
+    second: RPG_UI_Sheet_91
+  - first:
+      213: 1786792968446776011
+    second: RPG_UI_Sheet_92
+  - first:
+      213: -960160119523290626
+    second: RPG_UI_Sheet_93
+  - first:
+      213: -1138809641368651278
+    second: RPG_UI_Sheet_94
+  - first:
+      213: 5525426817327185236
+    second: RPG_UI_Sheet_99
+  - first:
+      213: 377831562312560413
+    second: RPG_UI_Sheet_100
+  - first:
+      213: 8531678542581122442
+    second: RPG_UI_Sheet_101
+  - first:
+      213: 8661386275441598968
+    second: RPG_UI_Sheet_102
+  - first:
+      213: -8548447966508434972
+    second: RPG_UI_Sheet_103
+  - first:
+      213: 471986928831302959
+    second: RPG_UI_Sheet_104
+  - first:
+      213: -506832973474936760
+    second: RPG_UI_Sheet_105
+  - first:
+      213: 8973737883469559324
+    second: RPG_UI_Sheet_106
+  - first:
+      213: -3541145815820429674
+    second: RPG_UI_Sheet_107
+  - first:
+      213: -4308385407547815278
+    second: RPG_UI_Sheet_108
+  - first:
+      213: -1630906887054664506
+    second: RPG_UI_Sheet_109
+  - first:
+      213: 1707812168215377776
+    second: RPG_UI_Sheet_110
+  - first:
+      213: -3120961177126435032
+    second: RPG_UI_Sheet_111
+  - first:
+      213: 4491731617896670685
+    second: RPG_UI_Sheet_112
+  - first:
+      213: -2329010184083608733
+    second: RPG_UI_Sheet_113
+  - first:
+      213: -8564051072056863414
+    second: RPG_UI_Sheet_114
+  - first:
+      213: 2825861707476163796
+    second: RPG_UI_Sheet_115
+  - first:
+      213: 3065092926952013452
+    second: RPG_UI_Sheet_116
+  - first:
+      213: 6565902974925117363
+    second: RPG_UI_Sheet_117
+  - first:
+      213: -1348569553774229025
+    second: RPG_UI_Sheet_118
+  - first:
+      213: -7595159586784736393
+    second: RPG_UI_Sheet_119
+  - first:
+      213: -1018322786474093283
+    second: RPG_UI_Sheet_120
+  - first:
+      213: -4237000775940588452
+    second: RPG_UI_Sheet_121
+  - first:
+      213: 6322324996204233288
+    second: RPG_UI_Sheet_122
+  - first:
+      213: -1515493042428544498
+    second: RPG_UI_Sheet_123
+  - first:
+      213: -669849473780143997
+    second: RPG_UI_Sheet_124
+  - first:
+      213: 8674847598116920401
+    second: RPG_UI_Sheet_125
+  - first:
+      213: 7040396984531104599
+    second: RPG_UI_Sheet_126
+  - first:
+      213: -1859693895521651324
+    second: RPG_UI_Sheet_127
+  - first:
+      213: -3722846595850508296
+    second: RPG_UI_Sheet_128
+  - first:
+      213: 1392650834876606318
+    second: RPG_UI_Sheet_129
+  - first:
+      213: -2507591433342956959
+    second: RPG_UI_Sheet_130
+  - first:
+      213: -4127703774723130624
+    second: RPG_UI_Sheet_131
+  - first:
+      213: -657499440066113555
+    second: RPG_UI_Sheet_132
+  - first:
+      213: -8782691510957666336
+    second: RPG_UI_Sheet_133
+  - first:
+      213: -348967474731311986
+    second: RPG_UI_Sheet_134
+  - first:
+      213: 2878258531414114007
+    second: RPG_UI_Sheet_135
+  - first:
+      213: 7766357614938509056
+    second: RPG_UI_Sheet_136
+  - first:
+      213: -5602630109941844866
+    second: RPG_UI_Sheet_137
+  - first:
+      213: 8934679550511971191
+    second: RPG_UI_Sheet_138
+  - first:
+      213: 8529454689954461997
+    second: RPG_UI_Sheet_139
+  - first:
+      213: -5886379711042601296
+    second: RPG_UI_Sheet_140
+  - first:
+      213: -2054845254085010979
+    second: RPG_UI_Sheet_141
+  - first:
+      213: 8164206757560952202
+    second: RPG_UI_Sheet_142
+  - first:
+      213: 2145099112447547612
+    second: RPG_UI_Sheet_143
+  - first:
+      213: -8367691412307283289
+    second: RPG_UI_Sheet_144
+  - first:
+      213: -6067974976817897989
+    second: RPG_UI_Sheet_145
+  - first:
+      213: -4873756041541940794
+    second: RPG_UI_Sheet_146
+  - first:
+      213: 2584202239082614491
+    second: RPG_UI_Sheet_147
+  - first:
+      213: -3736840464376831952
+    second: RPG_UI_Sheet_148
+  - first:
+      213: 3461572277569297625
+    second: RPG_UI_Sheet_149
+  - first:
+      213: 3621432386712912920
+    second: RPG_UI_Sheet_150
+  - first:
+      213: 8986014883894884331
+    second: RPG_UI_Sheet_151
+  - first:
+      213: -732631689592533412
+    second: RPG_UI_Sheet_152
+  - first:
+      213: 6984326268731904468
+    second: RPG_UI_Sheet_153
+  - first:
+      213: -8251926943541900668
+    second: RPG_UI_Sheet_154
+  - first:
+      213: 7346064985152036012
+    second: RPG_UI_Sheet_155
+  - first:
+      213: 3631178311347380698
+    second: RPG_UI_Sheet_156
+  - first:
+      213: 5271179552957509302
+    second: RPG_UI_Sheet_157
+  - first:
+      213: 2253711600496572161
+    second: RPG_UI_Sheet_158
+  - first:
+      213: -8703536054117468247
+    second: RPG_UI_Sheet_159
+  - first:
+      213: 6053684807943072589
+    second: RPG_UI_Sheet_160
+  - first:
+      213: 3915385365680346634
+    second: RPG_UI_Sheet_161
+  - first:
+      213: 149435327279916309
+    second: RPG_UI_Sheet_162
+  - first:
+      213: -2061831227107660435
+    second: RPG_UI_Sheet_163
+  - first:
+      213: -6305714131345453595
+    second: RPG_UI_Sheet_164
+  - first:
+      213: 7966339342906997720
+    second: RPG_UI_Sheet_165
+  - first:
+      213: 5060795739615622635
+    second: RPG_UI_Sheet_166
+  - first:
+      213: -8545899773082281180
+    second: RPG_UI_Sheet_167
+  - first:
+      213: 7164517416228487115
+    second: RPG_UI_Sheet_168
+  - first:
+      213: 4430833183584707654
+    second: RPG_UI_Sheet_169
+  - first:
+      213: -8180080984269927990
+    second: RPG_UI_Sheet_170
+  - first:
+      213: -3161333173862022762
+    second: RPG_UI_Sheet_171
+  - first:
+      213: -7319799818252355981
+    second: RPG_UI_Sheet_172
+  - first:
+      213: 6100848861746954106
+    second: RPG_UI_Sheet_173
+  - first:
+      213: 790167850209086684
+    second: RPG_UI_Sheet_174
+  - first:
+      213: 6613619269541730828
+    second: RPG_UI_Sheet_175
+  - first:
+      213: 253685486406168187
+    second: RPG_UI_Sheet_176
+  - first:
+      213: -6899604505335814976
+    second: RPG_UI_Sheet_177
+  - first:
+      213: -8358326643412350155
+    second: RPG_UI_Sheet_178
+  - first:
+      213: 704421686565600778
+    second: RPG_UI_Sheet_179
+  - first:
+      213: 1426915877171237319
+    second: RPG_UI_Sheet_180
+  - first:
+      213: -806984010228009318
+    second: RPG_UI_Sheet_181
+  - first:
+      213: 940942015999339709
+    second: RPG_UI_Sheet_182
+  - first:
+      213: -5310013721666808403
+    second: RPG_UI_Sheet_183
+  - first:
+      213: 470595665789032226
+    second: RPG_UI_Sheet_184
+  - first:
+      213: -7216714243693888614
+    second: RPG_UI_Sheet_185
+  - first:
+      213: 5338872698880737163
+    second: RPG_UI_Sheet_186
+  - first:
+      213: -3514870536782198891
+    second: RPG_UI_Sheet_187
+  - first:
+      213: -4498482847755657957
+    second: RPG_UI_Sheet_188
+  - first:
+      213: -3575223749078210049
+    second: RPG_UI_Sheet_189
+  - first:
+      213: 5325676195781170232
+    second: RPG_UI_Sheet_190
+  - first:
+      213: 3924303533309357944
+    second: RPG_UI_Sheet_191
+  - first:
+      213: 6150131990311663738
+    second: RPG_UI_Sheet_192
+  - first:
+      213: 533615403288181775
+    second: RPG_UI_Sheet_193
+  - first:
+      213: -8820817827320261910
+    second: RPG_UI_Sheet_194
+  - first:
+      213: 2330939062889900611
+    second: RPG_UI_Sheet_195
+  - first:
+      213: 9189019227213184947
+    second: RPG_UI_Sheet_196
+  - first:
+      213: -3866538195979123542
+    second: RPG_UI_Sheet_197
+  - first:
+      213: -464763800623921412
+    second: RPG_UI_Sheet_198
+  - first:
+      213: -7346538081166535570
+    second: RPG_UI_Sheet_37
+  - first:
+      213: 7331539299110026101
+    second: RPG_UI_Sheet_199
+  - first:
+      213: 6850291250539400821
+    second: RPG_UI_Sheet_23
+  - first:
+      213: 158480828446637916
+    second: RPG_UI_Sheet_36
+  - first:
+      213: 3661973475638287022
+    second: RPG_UI_Sheet_38
+  - first:
+      213: 8245884664883204755
+    second: RPG_UI_Sheet_49
+  - first:
+      213: 1042755718888853603
+    second: RPG_UI_Sheet_61
+  - first:
+      213: -2722036749985510286
+    second: RPG_UI_Sheet_62
+  - first:
+      213: -7592515009897751867
+    second: RPG_UI_Sheet_63
+  - first:
+      213: 5082003339114035197
+    second: RPG_UI_Sheet_76
+  - first:
+      213: -557179471013961911
+    second: RPG_UI_Sheet_87
+  - first:
+      213: -8601506921034997220
+    second: RPG_UI_Sheet_88
+  - first:
+      213: -3328775628267565228
+    second: RPG_UI_Sheet_22
+  - first:
+      213: 6787872729913739229
+    second: RPG_UI_Sheet_35
+  - first:
+      213: 1271812065618509782
+    second: RPG_UI_Sheet_48
+  - first:
+      213: -2798221877487178156
+    second: RPG_UI_Sheet_5
+  - first:
+      213: -2883368201132277445
+    second: RPG_UI_Sheet_7
+  - first:
+      213: -8224222607679147389
+    second: RPG_UI_Sheet_8
+  - first:
+      213: -7052657412536459294
+    second: RPG_UI_Sheet_18
+  - first:
+      213: 7502845860121484957
+    second: RPG_UI_Sheet_19
+  - first:
+      213: -2086851654783347320
+    second: RPG_UI_Sheet_20
+  - first:
+      213: 1181028830695963133
+    second: RPG_UI_Sheet_21
+  - first:
+      213: 5433044374985067286
+    second: RPG_UI_Sheet_31
+  - first:
+      213: -4494511843330314379
+    second: RPG_UI_Sheet_32
+  - first:
+      213: 1639341018327705211
+    second: RPG_UI_Sheet_33
+  - first:
+      213: -1850351429563157708
+    second: RPG_UI_Sheet_34
+  - first:
+      213: 7764391530710398572
+    second: RPG_UI_Sheet_44
+  - first:
+      213: -6067268317853066132
+    second: RPG_UI_Sheet_45
+  - first:
+      213: 5265874060854276435
+    second: RPG_UI_Sheet_46
+  - first:
+      213: -5587619570030418538
+    second: RPG_UI_Sheet_47
+  - first:
+      213: -7817816133597133391
+    second: RPG_UI_Sheet_57
+  - first:
+      213: 7777385170964748689
+    second: RPG_UI_Sheet_58
+  - first:
+      213: -7758766503566336139
+    second: RPG_UI_Sheet_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 463
+        width: 190
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 11, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ec75cbbf172de40863973071dbf481
+      internalID: 8248970620316445704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 412
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 6, z: 8, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a2d3cd18f1c78408452ac1a0f537a1
+      internalID: -2599696924464937095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 463
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 9, z: 7, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0308b57eb2136244ba065f6aadc2bf95
+      internalID: -2016414910817131786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 474
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f1ff9b9a7548946bd81f8be06f495e
+      internalID: -3547819355760445495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 497
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6547b97ed26d3b74aaaf26387e0440b2
+      internalID: -3482479655512008353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857da1cf581bc8d44941b54bd0e3aa31
+      internalID: -1322812272203956346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 467
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3813cb0dec93e574fb28a0640be6f958
+      internalID: 4557989160350981921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34c027e4372f454b9c0a225fdffe9b8
+      internalID: 1796976425289047966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 368
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f200ebde56ec9f4bafe860bbbdd4924
+      internalID: 3128664970397691475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 343
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9645ea5ed54ac6a42950f797c4f347fa
+      internalID: -5450353981802400329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 314
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663ca131c3eea374bac1d3192f13b421
+      internalID: 1202689125610361714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 124
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54ea286441bdd542a82e48b5353249a
+      internalID: -7595159586784736393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 169
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ef1744749b1dc43b29bdec4d89708f
+      internalID: 6322324996204233288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 184
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4758f7337a2ec58498b7008339016e51
+      internalID: -669849473780143997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 190
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfbac595e093c646ae632628aa77f72
+      internalID: 8674847598116920401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 146
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d6aeaa940d2d34597c5d029d108e40
+      internalID: -4127703774723130624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 200
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e3acfb9289841429703318f597845d
+      internalID: 7766357614938509056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b11137d483a82346acb7ae1cf793845
+      internalID: 2584202239082614491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 75
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c824498bd3391b24cac58541284ccc79
+      internalID: -8703536054117468247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 99
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6e704d58dbcdf479154afaf68b5d85
+      internalID: 6053684807943072589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_184
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fa27949d6e04742a61922114071076
+      internalID: 470595665789032226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_185
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eec76ebda4099b499bf99b2f57bb17e
+      internalID: -7216714243693888614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_189
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 4
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2ee1dd8451d8c49b2f4096bad59672
+      internalID: -3575223749078210049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_190
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 27
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4ba2180bdcf2b42b24f208c97fb6f8
+      internalID: 5325676195781170232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_191
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 5
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea8afbb5d734464a80c0453d54655cb
+      internalID: 3924303533309357944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_196
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b583c4bbd91b2f04286c5456f77c5cea
+      internalID: 9189019227213184947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_197
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 482
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb10d3f14804ff46a99196c9aea5eac
+      internalID: -3866538195979123542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_198
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 437
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d4ebcbebb190b4f9454b24b8da794b
+      internalID: -464763800623921412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 452
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe53fe77acabbb4cad595e48b689f48
+      internalID: -7346538081166535570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_199
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 422
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37913768176455c40b14c1d81128806b
+      internalID: 7331539299110026101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 404
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688ec0d4a1198194d8992c8c1af08bd9
+      internalID: 6850291250539400821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 386
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124993a66e13c244e82d12d6c1fa2432
+      internalID: 158480828446637916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 436
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac27e820ab061e84c9988e0aa01ab212
+      internalID: 3661973475638287022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 398
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6811f02f4f1d941b1d3cbe644df917
+      internalID: 8245884664883204755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 328
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390dec6d4579fbd4c9a82e67e1917779
+      internalID: 1042755718888853603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 313
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db66e61b3ca374149a8c932a68dd4ff0
+      internalID: -2722036749985510286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 360
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d300402e14da140a79ddb53b379e3a
+      internalID: -7592515009897751867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 326
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623d9a1a18b460f41a1fe885b50ae8bb
+      internalID: 5082003339114035197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 314
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1986c90772da86418db436e903198e6
+      internalID: -557179471013961911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 314
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0feaee8d30a09240b3ff5dc1a45a464
+      internalID: -8601506921034997220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 418
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 5, z: 7, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9c60a85158a4b4ca25aec3cc4f0ea7
+      internalID: -3328775628267565228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 373
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 5, z: 7, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f30ceff473f61e45bff5b88019af4ac
+      internalID: 6787872729913739229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 328
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 5, z: 7, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dfae6290bbf0a4ca048dca2cc44bc5
+      internalID: 1271812065618509782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 312
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 6, z: 8, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06fab0572d8d6a41aa2be4fc78440e8
+      internalID: -2798221877487178156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 6, z: 8, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90b03615fc81504e98b17a90fe4e79c
+      internalID: -2883368201132277445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 36
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 6, z: 8, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee6d3f327cc9e74e92ddbd5d397933d
+      internalID: -8224222607679147389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611432317f8c42f40bf6902610b1a1ba
+      internalID: -7052657412536459294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604fbce66d0fb964183b4294244f6d9c
+      internalID: 7502845860121484957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd938b7f068dc61459893c885e9b0293
+      internalID: -2086851654783347320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0239f905e8a1527409e13944e69a0c72
+      internalID: 1181028830695963133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 5
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f65757865221c4bb929627b86539c0
+      internalID: 5433044374985067286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 5
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea3ca8afa75df042ac2f89f8fa21bf1
+      internalID: -4494511843330314379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 5
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e7c6339219ac54aab88f516e6a10da
+      internalID: 1639341018327705211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 5
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c4637811d16574cacf3bd48e12a076
+      internalID: -1850351429563157708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 5
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b379c4eed5ed641806e577730ed81b
+      internalID: 7764391530710398572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 5
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ad6a89d93d16a45b54afcc1f7eb878
+      internalID: -6067268317853066132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 5
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174168218200c8947921bf3372caca08
+      internalID: 5265874060854276435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 190
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 11, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b434375b391e94690e7d171e9d2149
+      internalID: 2146358154364547820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 190
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 11, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d867a14032c6d0c448cb8f696c438b94
+      internalID: 9182693827327022962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 190
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 11, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d86108c9780af8468cc1b1bf1b0c304
+      internalID: -2713520236394142322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 190
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fc13040528d0440998cc90001880c0
+      internalID: -1014010482354222864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 190
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8549b955ee2ebe949b2df7abaa770057
+      internalID: 1975455950547454918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 190
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae8b44dded0bc24cb3b4d20a465e702
+      internalID: 6078998178552682845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 164
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6326fae31e8a39a48b055d70b37535d0
+      internalID: 5826467750416577783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 182
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a314c3a28c9f2340a1e565f14b5dfaf
+      internalID: -7804189589825823435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 182
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1268aec0ae4cbf4789e877ff55d8c2c
+      internalID: -7298696738280858782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 164
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41094d827590c2489be47b9dc4e2104
+      internalID: -1904408285424088473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 147
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8963831ef6316f14ea6e5bfdfadfd8a1
+      internalID: 6642902509005953539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2018dfc9cc7fd0a4abdea8f41964da88
+      internalID: 2374295888821310534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 108
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758f1b9a1b87e78429e143692bd3d3a0
+      internalID: -1459850110947076227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 81
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a19e24e841c244add467d170e4cea
+      internalID: -5174159392764365647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be923ad7a7aca64c8da19e5eb8f21be
+      internalID: 8151828773090434204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c33a791f5da8a24cbf51b25475159cf
+      internalID: -5073908927322219966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 120
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a3ec817ee9186478e6dac5e4fd0a10
+      internalID: -4812879854747420846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 26
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c243ee2de57314429532dc3c6070283
+      internalID: 2046641784962889439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06c0b382bb020c4d9066d7d160607a1
+      internalID: -2703630825998359917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabbd6d473a9262489e1178658978af3
+      internalID: -5587619570030418538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 45
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b347f85af9117e448ade991d18172804
+      internalID: 116297431106113476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 90
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981295d2abacedc44ae24bb7cd4c2c05
+      internalID: -5996332297797625680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 36
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7da8fce66d234a46bbf3080f030b882
+      internalID: -4114745815505390280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 27
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4083027b6fce3d94ebf9087fc5b11fd2
+      internalID: 1674137042141559902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 63
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb84e1bf2b569140bfabe300a8b1fc9
+      internalID: -1124178294697726355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 30
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d79841f198ac144b57dfebc9c2c27c
+      internalID: -5585065691062295115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 218
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3973f1ed30de65c4c9f7b8a5a36264f4
+      internalID: -7817816133597133391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 218
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 2, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed770f8d3481d4b4eb9eed08b10bb372
+      internalID: 7777385170964748689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG_UI_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 314
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd2f448bee7d92468e4df264ea60997
+      internalID: -7758766503566336139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

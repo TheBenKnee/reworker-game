@@ -1,0 +1,2209 @@
+fileFormatVersion: 2
+guid: 70d0238fb3da3e145ba90282a5b11903
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4578167346780549571
+    second: character_boy_0
+  - first:
+      213: 4184779167708245162
+    second: character_boy_1
+  - first:
+      213: -1182059174026468825
+    second: character_boy_2
+  - first:
+      213: -6672281982017585559
+    second: character_boy_3
+  - first:
+      213: 7150229338063919239
+    second: character_boy_4
+  - first:
+      213: -1859198261763810959
+    second: character_boy_5
+  - first:
+      213: -6939729736669742024
+    second: character_boy_6
+  - first:
+      213: 6474714910782250371
+    second: character_boy_7
+  - first:
+      213: -7718747161675313709
+    second: character_boy_8
+  - first:
+      213: -2879916127915085559
+    second: character_boy_9
+  - first:
+      213: 5032164546883910929
+    second: character_boy_10
+  - first:
+      213: -4757477793524365445
+    second: character_boy_11
+  - first:
+      213: -1528495998032428346
+    second: character_boy_12
+  - first:
+      213: -8827921088533643828
+    second: character_boy_13
+  - first:
+      213: -8458414828010060766
+    second: character_boy_14
+  - first:
+      213: -191964720771777606
+    second: character_boy_15
+  - first:
+      213: 8011294111200401804
+    second: character_boy_16
+  - first:
+      213: 2540542768145934299
+    second: character_boy_17
+  - first:
+      213: -8629767542270309055
+    second: character_boy_18
+  - first:
+      213: -9145322642280232229
+    second: character_boy_19
+  - first:
+      213: -8981521407624124222
+    second: character_boy_20
+  - first:
+      213: -3810819828931499759
+    second: character_boy_21
+  - first:
+      213: -2274045848764866847
+    second: character_boy_22
+  - first:
+      213: 7985635294440315947
+    second: character_boy_23
+  - first:
+      213: -88953212484110771
+    second: character_boy_24
+  - first:
+      213: 7862883361611336989
+    second: character_boy_25
+  - first:
+      213: 2994213244565515663
+    second: character_boy_26
+  - first:
+      213: -9059535448244626864
+    second: character_boy_27
+  - first:
+      213: -3235194811832518423
+    second: character_boy_28
+  - first:
+      213: -2416707864516422750
+    second: character_boy_29
+  - first:
+      213: 3330147184481943695
+    second: character_boy_30
+  - first:
+      213: 1902885324753314924
+    second: character_boy_31
+  - first:
+      213: -1987784362696509251
+    second: character_boy_32
+  - first:
+      213: -139994608142964721
+    second: character_boy_33
+  - first:
+      213: -1404183082221133922
+    second: character_boy_34
+  - first:
+      213: -382408826248482307
+    second: character_boy_35
+  - first:
+      213: -2708216227545027956
+    second: character_boy_36
+  - first:
+      213: -3393676651137621635
+    second: character_boy_37
+  - first:
+      213: -8419010266324619045
+    second: character_boy_38
+  - first:
+      213: 5936451864191613514
+    second: character_boy_39
+  - first:
+      213: 8146469834418333928
+    second: character_boy_40
+  - first:
+      213: -4107326283699883680
+    second: character_boy_41
+  - first:
+      213: -8731247029737931141
+    second: character_boy_42
+  - first:
+      213: 4246403386473357351
+    second: character_boy_43
+  - first:
+      213: 8466331987452367553
+    second: character_boy_44
+  - first:
+      213: 3205910877916860974
+    second: character_boy_45
+  - first:
+      213: -8015575476212028265
+    second: character_boy_46
+  - first:
+      213: -8997980171226926274
+    second: character_boy_47
+  - first:
+      213: 8404603668196097587
+    second: character_boy_48
+  - first:
+      213: -3142892920124215583
+    second: character_boy_49
+  - first:
+      213: -2600569924874059166
+    second: character_boy_50
+  - first:
+      213: -1774061160516926563
+    second: character_boy_51
+  - first:
+      213: -3458457528691992917
+    second: character_boy_52
+  - first:
+      213: 5398731378376365793
+    second: character_boy_53
+  - first:
+      213: -6729671934392653982
+    second: character_boy_54
+  - first:
+      213: 7166196422124942829
+    second: character_boy_55
+  - first:
+      213: -965285912151789357
+    second: character_boy_56
+  - first:
+      213: -8458741083374443297
+    second: character_boy_57
+  - first:
+      213: 9124314331458016971
+    second: character_boy_58
+  - first:
+      213: 8214653848214556649
+    second: character_boy_59
+  - first:
+      213: 3563760434953825358
+    second: character_boy_60
+  - first:
+      213: -2946443231853447321
+    second: character_boy_61
+  - first:
+      213: 4254956952737839785
+    second: character_boy_62
+  - first:
+      213: 8749009974678212810
+    second: character_boy_63
+  - first:
+      213: -2628284197988701487
+    second: character_boy_64
+  - first:
+      213: 3704359872466890260
+    second: character_boy_65
+  - first:
+      213: 2688390363982035344
+    second: character_boy_66
+  - first:
+      213: -1637768245310276236
+    second: character_boy_67
+  - first:
+      213: 1469325712911948078
+    second: character_boy_68
+  - first:
+      213: 4777673653110278275
+    second: character_boy_69
+  - first:
+      213: 6153161353651709410
+    second: character_boy_70
+  - first:
+      213: 6414977136496798325
+    second: character_boy_71
+  - first:
+      213: -559468230432314723
+    second: character_boy_72
+  - first:
+      213: -1337152682513320254
+    second: character_boy_73
+  - first:
+      213: 4307628308060301419
+    second: character_boy_74
+  - first:
+      213: 231126230524047805
+    second: character_boy_75
+  - first:
+      213: -7581255100875741301
+    second: character_boy_76
+  - first:
+      213: 1201987664386059357
+    second: character_boy_77
+  - first:
+      213: -5977777821250426992
+    second: Player_Boy_0
+  - first:
+      213: -8447262380869848866
+    second: Player_Boy_1
+  - first:
+      213: -7279086720869671942
+    second: Player_Boy_2
+  - first:
+      213: -6553681830171907838
+    second: Player_Boy_3
+  - first:
+      213: -4147316030928166611
+    second: Player_Boy_4
+  - first:
+      213: -922856083985462385
+    second: Player_Boy_5
+  - first:
+      213: -5654339170329632933
+    second: Player_Boy_6
+  - first:
+      213: -5868077186930369914
+    second: Player_Boy_7
+  - first:
+      213: -5185679252012653095
+    second: Player_Boy_8
+  - first:
+      213: -2085285772611796868
+    second: Player_Boy_9
+  - first:
+      213: 8213426525407141512
+    second: Player_Boy_10
+  - first:
+      213: -4824563188020304674
+    second: Player_Boy_11
+  - first:
+      213: 335212529394733972
+    second: Player_Boy_12
+  - first:
+      213: -4679736318666128211
+    second: Player_Boy_13
+  - first:
+      213: -7066263418149970440
+    second: Player_Boy_14
+  - first:
+      213: 3664082111851993778
+    second: Player_Boy_15
+  - first:
+      213: 5009605207245173637
+    second: Player_Boy_16
+  - first:
+      213: -2439178809070543730
+    second: Player_Boy_17
+  - first:
+      213: 1985406226049975385
+    second: Player_Boy_18
+  - first:
+      213: 7488817078681485305
+    second: Player_Boy_19
+  - first:
+      213: 6288805365095972774
+    second: Player_Boy_20
+  - first:
+      213: -8901923458515811382
+    second: Player_Boy_21
+  - first:
+      213: 7694563553009548895
+    second: Player_Boy_22
+  - first:
+      213: 689749047619506617
+    second: Player_Boy_23
+  - first:
+      213: 2034189223752716881
+    second: Player_Boy_24
+  - first:
+      213: -2196073327736934568
+    second: Player_Boy_25
+  - first:
+      213: 8979751841146699145
+    second: Player_Boy_26
+  - first:
+      213: -4914905561673520158
+    second: Player_Boy_27
+  - first:
+      213: 1227234492162936285
+    second: Player_Boy_28
+  - first:
+      213: 551464937050939459
+    second: Player_Boy_29
+  - first:
+      213: 8830629155018799962
+    second: Player_Boy_30
+  - first:
+      213: 4902007577190168153
+    second: Player_Boy_31
+  - first:
+      213: -63150749464934262
+    second: Player_Boy_32
+  - first:
+      213: 4857796385889683106
+    second: Player_Boy_33
+  - first:
+      213: -7856478639543656030
+    second: Player_Boy_34
+  - first:
+      213: 3845132473831334886
+    second: Player_Boy_35
+  - first:
+      213: -6157684804486757085
+    second: Player_Boy_36
+  - first:
+      213: -1934600389523032266
+    second: Player_Boy_37
+  - first:
+      213: 5039252604509600578
+    second: Player_Boy_38
+  - first:
+      213: 5267039421404068482
+    second: Player_Boy_39
+  - first:
+      213: -8659010767229667605
+    second: Player_Boy_40
+  - first:
+      213: -5483944595793850040
+    second: Player_Boy_41
+  - first:
+      213: -1191839102460664053
+    second: Player_Boy_42
+  - first:
+      213: 2028752983456588138
+    second: Player_Boy_43
+  - first:
+      213: 8711944509474244018
+    second: Player_Boy_44
+  - first:
+      213: 6136815357639882731
+    second: Player_Boy_45
+  - first:
+      213: -1474366505074812257
+    second: Player_Boy_46
+  - first:
+      213: -5226744724386838457
+    second: Player_Boy_47
+  - first:
+      213: -8257732154261609132
+    second: Player_Boy_48
+  - first:
+      213: 571208849591229843
+    second: Player_Boy_49
+  - first:
+      213: 3250328638258051836
+    second: Player_Boy_50
+  - first:
+      213: -8414246606850064288
+    second: Player_Boy_51
+  - first:
+      213: -8447795611693200676
+    second: Player_Boy_52
+  - first:
+      213: -4622788925836546356
+    second: Player_Boy_53
+  - first:
+      213: 1558076997633654053
+    second: Player_Boy_54
+  - first:
+      213: 9110324562851049503
+    second: Player_Boy_55
+  - first:
+      213: -1391926665454071753
+    second: Player_Boy_56
+  - first:
+      213: 9058152962470116792
+    second: Player_Boy_57
+  - first:
+      213: -7366042338859342087
+    second: Player_Boy_58
+  - first:
+      213: -3870438570662992140
+    second: Player_Boy_59
+  - first:
+      213: 81103811595289081
+    second: Player_Boy_60
+  - first:
+      213: -7682016666745489800
+    second: Player_Boy_61
+  - first:
+      213: 8093416597133484703
+    second: Player_Boy_62
+  - first:
+      213: 7057054946862413757
+    second: Player_Boy_63
+  - first:
+      213: -7491417759368543819
+    second: Player_Boy_64
+  - first:
+      213: -814227756045287601
+    second: Player_Boy_65
+  - first:
+      213: -5525706469098319991
+    second: Player_Boy_66
+  - first:
+      213: -7098702236158354173
+    second: Player_Boy_67
+  - first:
+      213: 5858924766204989787
+    second: Player_Boy_68
+  - first:
+      213: 3151212869139249843
+    second: Player_Boy_69
+  - first:
+      213: 8929546237571100668
+    second: Player_Boy_70
+  - first:
+      213: -5682063314216823469
+    second: Player_Boy_71
+  - first:
+      213: 5554080512704198679
+    second: Player_Boy_72
+  - first:
+      213: 1685102265764962650
+    second: Player_Boy_73
+  - first:
+      213: 6775636822746758059
+    second: Player_Boy_74
+  - first:
+      213: 1900342752940576424
+    second: Player_Boy_75
+  - first:
+      213: -7828247718054539700
+    second: Player_Boy_76
+  - first:
+      213: 7048657194416044403
+    second: Player_Boy_77
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Boy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c56747e6234f1438648279d9e0a94b
+      internalID: -5977777821250426992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf962109404d95a499fdce7c2b263988
+      internalID: -8447262380869848866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1c4f6c964848b4aaa04437e05ab7d4
+      internalID: -7279086720869671942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6ed734dba284944910d8e8e06c804d
+      internalID: -6553681830171907838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7987832aa931c4b95b5caf165703f1
+      internalID: -4147316030928166611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f2657c8ab7e8a4aaf465fdc1d3247f
+      internalID: -922856083985462385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e3c96b85d825d4f92297b384943179
+      internalID: -5654339170329632933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d7dff1f0b083448de6b2d81f8ead4
+      internalID: -5868077186930369914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2bf422e78ce504b9df0433f6753210
+      internalID: -5185679252012653095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b958847e7f489446b0d749addd95e78
+      internalID: -2085285772611796868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1a731fc636c4e4396efb9927acb511
+      internalID: 8213426525407141512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff7a21110e2f934ab9f1ca7d2c5b2a6
+      internalID: -4824563188020304674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa03b3efb4aa4b47809ddfb743d7757
+      internalID: 335212529394733972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb4ee090bbe03048ad9677224981911
+      internalID: -4679736318666128211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5872624934aeb47bce26b667674713
+      internalID: -7066263418149970440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f100f80a8032948813d40be16190e4
+      internalID: 3664082111851993778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd70e3975518e5c48be993d784255341
+      internalID: 5009605207245173637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4653c9340eea048976ea2c8eff4041
+      internalID: -2439178809070543730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25db399743eff5e4094eb1222e523bb6
+      internalID: 1985406226049975385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1b97263900b9040bf2c7c5734f4467
+      internalID: 7488817078681485305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea9b8e97df89804d86dbce61f762d63
+      internalID: 6288805365095972774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b12268ce0e82a4e97312c1533f8b90
+      internalID: -8901923458515811382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4671f6e835bf3448a4c87d72cb52400
+      internalID: 7694563553009548895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f5d747db87aae429ccc07a1e450a6c
+      internalID: 689749047619506617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407dff3f3cff0fb4f94b4ce73005115d
+      internalID: 2034189223752716881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18621c7398fd210438fbd5117a95df35
+      internalID: -2196073327736934568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d576cd187eb9b9c41b4928fc790d44f5
+      internalID: 8979751841146699145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cef16365076734e98e7e3339898244
+      internalID: -4914905561673520158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8ffb10144531c41b065ee5a026eca7
+      internalID: 1227234492162936285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd12d82db2702e6499e90e08f701d43b
+      internalID: 551464937050939459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5702914b6ccc0354d94826808f38ef46
+      internalID: 8830629155018799962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96aa6b6b2d6c87409e13b93a52fc26d
+      internalID: 4902007577190168153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5e782260281a44d8c087a9ada0fde2
+      internalID: -63150749464934262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8321ad5d2694045afd464eccbad5aa
+      internalID: 4857796385889683106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c91a684e563354498c204f41c2313f9
+      internalID: -7856478639543656030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde741889cac9094396484a7516b372c
+      internalID: 3845132473831334886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4045224fb04ae46975ee530171ab05
+      internalID: -6157684804486757085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033fd39ad507f074ca380ea44afe2066
+      internalID: -1934600389523032266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883f0341d58db01489a54cbe0c20bcca
+      internalID: 5039252604509600578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d225f5535719bfb45a59eb41aba9b199
+      internalID: 5267039421404068482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ddee64931a2664dbbd9f6b51e79af7
+      internalID: -8659010767229667605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d742b3ef9518f714ea77d39fb7662573
+      internalID: -5483944595793850040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdb28ed8d5d52c4cb966ae6c4d3cdf9
+      internalID: -1191839102460664053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e43bcd55d42cc0499e2306efd3def45
+      internalID: 2028752983456588138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b3d6edf0d6d554b8167efe74e67521
+      internalID: 8711944509474244018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fad3d74ff140d48b23ab2cef576c53
+      internalID: 6136815357639882731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8cc4a569b99764eafbd997ac47ceb3
+      internalID: -1474366505074812257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_47
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d57736de9318664e85847ebc290b18b
+      internalID: -5226744724386838457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186d3e5023890b44c9f9b404f42181eb
+      internalID: -8257732154261609132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ca9db1e18bf794db7665746e3bb176
+      internalID: 571208849591229843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db6c446a49843c4c98ae49e85193166
+      internalID: 3250328638258051836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3774846ca79ccea4899e2eea46c6219b
+      internalID: -8414246606850064288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d796ce6a53383594db37debf4eba621b
+      internalID: -8447795611693200676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954cc4915230e4e4ca525f4b2cbf5cf8
+      internalID: -4622788925836546356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafd1ee4b21f9d84ebac0d16329a8dac
+      internalID: 1558076997633654053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_55
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd6f8246b6b1074db5b63c505dd341a
+      internalID: 9110324562851049503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00b0302c2b127f40ac369d661d9001e
+      internalID: -1391926665454071753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b04ccb1a4a0c14abb940697fb062bd
+      internalID: 9058152962470116792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775a81a3e872c8d4f88501c152f8aa5c
+      internalID: -7366042338859342087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_59
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2f371befe46c141b724d2eff327320
+      internalID: -3870438570662992140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b94730b634c86448bc95f40c1f89b6
+      internalID: 81103811595289081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_61
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5318e16be2c09fb44b76700168267373
+      internalID: -7682016666745489800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8efc4d6aae0bd48a855707f0cf7217
+      internalID: 8093416597133484703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b8d3a0f1423e34484cb344e9adcb16
+      internalID: 7057054946862413757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904bdd9d6f8545149b0005d58f3d7be0
+      internalID: -7491417759368543819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee536f5cee5b6f243bd415df76375d97
+      internalID: -814227756045287601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3baa2a4cdfa0c43af5b920976a4ba8
+      internalID: -5525706469098319991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7de58ed6f8607642a2e97f152a4d958
+      internalID: -7098702236158354173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d236c67e4bdbb1e4992298e15b2be6b0
+      internalID: 5858924766204989787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_69
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326af97af488eb847955aaefdef1bf93
+      internalID: 3151212869139249843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f474d8ed0b10843a660398f6be27a2
+      internalID: 8929546237571100668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_71
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8735f20622148ba4b9bb7da75b298a21
+      internalID: -5682063314216823469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77192d024289544439ae3b5b4f3d4d51
+      internalID: 5554080512704198679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5207ee4fd6b4a7946bd8c79894efb9fc
+      internalID: 1685102265764962650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067641b6e4a30864dba7a7c0328e7297
+      internalID: 6775636822746758059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_75
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65af59a1ab9b3b94ab6fb639853a33aa
+      internalID: 1900342752940576424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bbf5029a4142a4a82084c96bb92c59
+      internalID: -7828247718054539700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Boy_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ec09aead8964547beecc46acc9bf83
+      internalID: 7048657194416044403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

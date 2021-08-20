@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8624194594242972371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8624194594242972381}
+  - component: {fileID: 8624194594242972380}
+  m_Layer: 0
+  m_Name: Saver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8624194594242972381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8624194594242972371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8624194594242972380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8624194594242972371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cace0719ae0e04fa6bb32c79ffa8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFile: 0
+  myInventory: {fileID: 11400000, guid: 29973e01e8b8b8949bafd1742fa74ef3, type: 2}
+  objects:
+  - {fileID: 11400000, guid: 30b61b486aff6d147884260b6a9298e0, type: 2}
+  - {fileID: 11400000, guid: fe47d3ed7f9a14346b01235336a4fb44, type: 2}
+  - {fileID: 11400000, guid: 9ecf9bf7e7f9cc84a9119ee97073a12b, type: 2}
+  - {fileID: 11400000, guid: 3a75d7646a49841468a78c372f574a76, type: 2}
+  activeSave: -1
+  progress1: 0
+  progress2: 0
+  progress3: 0
+  playerName1: 
+  playerName2: 
+  playerName3: 
+  player1Gender: 0
+  player2Gender: 0
+  player3Gender: 0
+  player1Coins: 0
+  player2Coins: 0
+  player3Coins: 0
+  playerPersonality1: 3200000032000000320000003200000032000000
+  playerPersonality2: 3200000032000000320000003200000032000000
+  playerPersonality3: 3200000032000000320000003200000032000000
+  progressTmp: 0
+  playerPersonalityTmp: 0000000000000000000000000000000000000000
+  currentScene:
+    m_Handle: 0
