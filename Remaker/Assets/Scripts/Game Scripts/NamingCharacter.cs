@@ -7,32 +7,12 @@ using TMPro;
 
 public class NamingCharacter : MonoBehaviour
 {
-    [SerializeField] private GameSaveManager saveManager;
     [SerializeField] private TMP_InputField playerName; 
     [SerializeField] private GrowBerry myBerry;
 
-    void Awake()
-    {
-        saveManager = GameObject.Find("SaveManager").GetComponent<GameSaveManager>();
-    }
-
     public void EnterName()
     {
-        switch(saveManager.activeSave)
-        {
-            case 1:
-                saveManager.playerName1 = playerName.text;
-                break;
-            case 2:
-                saveManager.playerName2 = playerName.text;
-                break;
-            case 3:
-                saveManager.playerName3 = playerName.text;
-                break;
-            default:
-                Debug.Log("Error: Cannot determine which player name to save to.");
-                break;
-        }
+        PixelCrushers.DialogueSystem.DialogueLua.SetVariable("PlayerName", playerName.text);
         myBerry.nameEntered = 0.1f;
         switch(playerName.text)
         {
@@ -46,7 +26,7 @@ public class NamingCharacter : MonoBehaviour
             case "Elvenar":
             {
                 myBerry.introDialogue.text = "...you're not welcome here.";
-                saveManager.activeSave = -2;
+                PixelCrushers.DialogueSystem.DialogueLua.SetVariable("SaveNumber", -1);
                 SceneManager.LoadScene("MainMenu");
                 break;
             }

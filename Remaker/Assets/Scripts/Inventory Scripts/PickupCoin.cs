@@ -10,7 +10,7 @@ public class PickupCoin : MonoBehaviour
     [SerializeField] private TextMeshProUGUI descriptionText;
     //myGameManager = GameObject.Find("SaveManager").GetComponent<GameSaveManager>();
     private Image thisPurse;
-    private GameSaveManager myGameManager;
+    //private GameSaveManager myGameManager;
     private int lifeTime = 200;
     private bool isShowing = true;
     private Color initialColor;
@@ -68,30 +68,30 @@ public class PickupCoin : MonoBehaviour
         changedColor = thisPurse.color;
         initialText = descriptionText.color;
         changedText = descriptionText.color;
-        myGameManager = GameObject.Find("SaveManager").GetComponent<GameSaveManager>();
-        switch(myGameManager.activeSave)
-        {
-            case 1:
-            {
-                myInventory.coins = myGameManager.player1Coins;
-                break;
-            }
-            case 2:
-            {
-                myInventory.coins = myGameManager.player2Coins;
-                break;
-            }
-            case 3:
-            {
-                myInventory.coins = myGameManager.player3Coins;
-                break;
-            }
-            default:
-            {
-                Debug.Log("In PickupCoin, Active Save not detected.");
-                break;
-            }
-        }
+        // myGameManager = GameObject.Find("SaveManager").GetComponent<GameSaveManager>();
+        // switch(myGameManager.activeSave)
+        // {
+        //     case 1:
+        //     {
+        //         myInventory.coins = myGameManager.player1Coins;
+        //         break;
+        //     }
+        //     case 2:
+        //     {
+        //         myInventory.coins = myGameManager.player2Coins;
+        //         break;
+        //     }
+        //     case 3:
+        //     {
+        //         myInventory.coins = myGameManager.player3Coins;
+        //         break;
+        //     }
+        //     default:
+        //     {
+        //         Debug.Log("In PickupCoin, Active Save not detected.");
+        //         break;
+        //     }
+        // }
         descriptionText.text = myInventory.coins.ToString();
     }
 }

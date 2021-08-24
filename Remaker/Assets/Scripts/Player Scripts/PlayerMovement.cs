@@ -17,6 +17,7 @@ public class PlayerMovement : Movement
         myState = GetComponent<StateMachine>();
         anim = GetComponent<AnimatorController>();
         myState.ChangeState(GenericState.idle);
+        Debug.Log(PixelCrushers.SaveSystem.currentSavedGameData);
     }
 
     // Update is called once per frame

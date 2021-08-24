@@ -6,7 +6,7 @@ using UnityEngine.Playables;
 
 public class IntroDialogue : MonoBehaviour
 {
-    [SerializeField] private GameSaveManager saveManager;
+    // [SerializeField] private GameSaveManager saveManager;
     [SerializeField] private PlayableDirector introCutscene;
 
     [SerializeField] private int fadeTime;
@@ -56,7 +56,7 @@ public class IntroDialogue : MonoBehaviour
 
     void Awake()
     {
-        saveManager = GameObject.Find("SaveManager").GetComponent<GameSaveManager>();
+        //saveManager = GameObject.Find("SaveManager").GetComponent<GameSaveManager>();
     }
 
     // Start is called before the first frame update
@@ -78,7 +78,10 @@ public class IntroDialogue : MonoBehaviour
 
         // maleButton.gameObject.SetActive(false);
         // femaleButton.gameObject.SetActive(false);
-
-        introCutscene.Play();
+        Debug.Log(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("Aaaaaa").AsInt);
+        if(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("Aaaaaa").AsInt <= 0)
+        {
+            introCutscene.Play();
+        }
     }
 }

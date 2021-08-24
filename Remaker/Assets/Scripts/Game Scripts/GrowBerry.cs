@@ -7,7 +7,6 @@ using TMPro;
 
 public class GrowBerry : MonoBehaviour
 {
-    [SerializeField] private GameSaveManager saveManager;
     [SerializeField] private PlayableDirector myDirector;
     public TextMeshProUGUI introDialogue;
 
@@ -27,7 +26,6 @@ public class GrowBerry : MonoBehaviour
     void Awake()
     {
         imageSize = berry.rectTransform.sizeDelta;
-        saveManager = GameObject.Find("SaveManager").GetComponent<GameSaveManager>();
     }
 
     void OnEnable()
@@ -110,24 +108,8 @@ public class GrowBerry : MonoBehaviour
             genderSelected = 0.0f;
             playerUI.gameObject.SetActive(true);
             introUI.gameObject.SetActive(false);
-            switch(saveManager.activeSave)
-            {
-                case 1:
-                {
-                    saveManager.progress1 = 1;
-                    break;
-                }
-                case 2:
-                {
-                    saveManager.progress2 = 1;
-                    break;
-                }
-                case 3:
-                {
-                    saveManager.progress3 = 1;
-                    break;
-                }
-            }
+            //PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt;
+            PixelCrushers.DialogueSystem.DialogueLua.SetVariable("Aaaaaa", 1);
         }
     }
 
@@ -136,45 +118,11 @@ public class GrowBerry : MonoBehaviour
         selection.SetActive(false);
         if(option == 1)
         {
-            switch(saveManager.activeSave)
-            {
-                case 1:
-                {
-                    saveManager.player1Gender = 1;
-                    break;
-                }
-                case 2:
-                {
-                    saveManager.player2Gender = 1;
-                    break;
-                }
-                case 3:
-                {
-                    saveManager.player3Gender = 1;
-                    break;
-                }
-            }
+            PixelCrushers.DialogueSystem.DialogueLua.SetVariable("PlayerGender", 1);
         }
         else
         {
-            switch(saveManager.activeSave)
-            {
-                case 1:
-                {
-                    saveManager.player1Gender = 0;
-                    break;
-                }
-                case 2:
-                {
-                    saveManager.player2Gender = 0;
-                    break;
-                }
-                case 3:
-                {
-                    saveManager.player3Gender = 0;
-                    break;
-                }
-            }
+            PixelCrushers.DialogueSystem.DialogueLua.SetVariable("PlayerGender", 0);
         }
         genderSelected = 0.01f;
     }

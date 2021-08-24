@@ -14,18 +14,18 @@ public class PauseManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonUp("Pause"))
-        {
-            for(int i = 0; i < this.gameObject.transform.childCount; i++)
-            {
-                if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != pauseMenu)
-                {
-                    this.gameObject.transform.GetChild(i).gameObject.SetActive(false);
-                    Time.timeScale = gameSpeed.value;
-                }
-            }
-            ChangePauseValue();
-        }
+        // if (Input.GetButtonUp("Pause"))
+        // {
+        //     for(int i = 0; i < this.gameObject.transform.childCount; i++)
+        //     {
+        //         if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != pauseMenu)
+        //         {
+        //             this.gameObject.transform.GetChild(i).gameObject.SetActive(false);
+        //             Time.timeScale = gameSpeed.value;
+        //         }
+        //     }
+        //     ChangePauseValue();
+        // }
     }
 
     void ChangePauseValue()
