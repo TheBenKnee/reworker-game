@@ -11,18 +11,38 @@ public class PlayerMovement : Movement
 
     private Vector2 tempMovement = Vector2.down;
 
+    private void OnEnable() 
+    {
+        Debug.Log(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("PlayerGender").AsInt);    
+        if(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("PlayerGender").AsInt == 1)
+        {
+            anim.SetAnimParameter("male", false);
+        }
+        else
+        {
+            anim.SetAnimParameter("male", true);
+        }
+        if(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("HasSword").AsBool)
+        {
+            anim.SetAnimParameter("hasSword", true);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         myState = GetComponent<StateMachine>();
         anim = GetComponent<AnimatorController>();
         myState.ChangeState(GenericState.idle);
-        Debug.Log(PixelCrushers.SaveSystem.currentSavedGameData);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(myState.myState == GenericState.stun)
+        {
+            return;
+        }
         if (myState.myState == GenericState.receiveItem)
         {
             if (Input.GetButtonDown("Interact"))
@@ -41,7 +61,6 @@ public class PlayerMovement : Movement
     {
         myState.ChangeState(newState);
     }
-
 
     void GetInput()
     {

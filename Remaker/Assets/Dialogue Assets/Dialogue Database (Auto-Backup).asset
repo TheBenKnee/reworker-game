@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Dialogue Database
+  m_Name: Dialogue Database (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 1.0.0
   author: BenKnee
@@ -205,6 +205,20 @@ MonoBehaviour:
       type: 0
       typeString: 
   variables:
+  - id: 6
+    fields:
+    - title: Name
+      value: Aaaaaa
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: Percent of player progress on save.
+      type: 0
+      typeString: 
   - id: 1
     fields:
     - title: Name
@@ -273,6 +287,48 @@ MonoBehaviour:
       typeString: CustomFieldType_Text
     - title: Description
       value: The name of the player.
+      type: 0
+      typeString: 
+  - id: 7
+    fields:
+    - title: Name
+      value: SaveNumber
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: -1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: The current save value the player is playing on.
+      type: 0
+      typeString: 
+  - id: 8
+    fields:
+    - title: Name
+      value: PlayerGender
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: -1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: 'The player''s gender: 1 - female, 0 - male.'
+      type: 0
+      typeString: 
+  - id: 9
+    fields:
+    - title: Name
+      value: New
+      type: 0
+      typeString: 
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
       type: 0
       typeString: 
   conversations:

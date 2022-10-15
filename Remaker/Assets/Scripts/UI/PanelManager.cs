@@ -13,39 +13,44 @@ public class PanelManager : MonoBehaviour
     [SerializeField] private GameObject saveButton;
     [SerializeField] private FloatValue gameSpeed;  //Making this a FloatValue instead of a hardcoded '1' allows us to preserve the speed of the game in the event of a game speed change (slow mo/speed up)
     [SerializeField] private string menuSceneString;
+    [SerializeField] private GameObject playerObject;
 
     // Update is called once per frame
     void Update()
     {
-        // //PAUSE BUTTON
-        if (!introPanel.activeSelf && Input.GetButtonUp("Pause"))
+        if(playerObject.GetComponent<StateMachine>().myState != GenericState.stun)
         {
-            for(int i = 0; i < this.gameObject.transform.childCount; i++)
+            // //PAUSE BUTTON
+            if (Input.GetButtonUp("Pause"))
             {
-                if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != pauseMenu)
+                for(int i = 0; i < this.gameObject.transform.childCount; i++)
                 {
-                    //Just turn panel off
-                    ChangePanel(this.gameObject.transform.GetChild(i).gameObject);
-                    return;
+                    if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != pauseMenu)
+                    {
+                        //Just turn panel off
+                        ChangePanel(this.gameObject.transform.GetChild(i).gameObject);
+                        return;
+                    }
                 }
+                //If reached, no other panels were active
+                ChangePanel(pauseMenu);
             }
-            //If reached, no other panels were active
-            ChangePanel(pauseMenu);
+            
+            //INVENTORY BUTTON
+            if (Input.GetButtonDown("Inventory"))
+            {
+                for(int i = 0; i < this.gameObject.transform.childCount; i++)
+                {
+                    if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != inventoryPanel)
+                    {
+                        //If other panel is open, don't open inventory panel
+                        return;
+                    }
+                }
+                ChangePanel(inventoryPanel);
+            }
         }
         
-        //INVENTORY BUTTON
-        if (!introPanel.activeSelf && Input.GetButtonDown("Inventory"))
-        {
-            for(int i = 0; i < this.gameObject.transform.childCount; i++)
-            {
-                if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != inventoryPanel)
-                {
-                    //If other panel is open, don't open inventory panel
-                    return;
-                }
-            }
-            ChangePanel(inventoryPanel);
-        }
     }
 
     void ChangePanel(GameObject panel)
