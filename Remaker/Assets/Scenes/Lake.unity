@@ -3267,8 +3267,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Well, hello. I didn't see you there.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3906,10 +3906,10 @@ RectTransform:
   m_Father: {fileID: 795919392551009014}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.11150982, y: 0.24576196}
-  m_AnchorMax: {x: 0.40434644, y: 0.59400004}
-  m_AnchoredPosition: {x: 0, y: 33}
-  m_SizeDelta: {x: 6.100006, y: -1.300003}
+  m_AnchorMin: {x: 0.105346195, y: 0.30289966}
+  m_AnchorMax: {x: 0.4074283, y: 0.65639794}
+  m_AnchoredPosition: {x: 1.5, y: 1.5}
+  m_SizeDelta: {x: -2.899994, y: -4.300003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &795919391866860115
 GameObject:
@@ -4241,7 +4241,7 @@ MonoBehaviour:
   saveButton: {fileID: 1318097681458141164}
   gameSpeed: {fileID: 11400000, guid: 5933e9bf438e17047aa3a99137db8920, type: 2}
   menuSceneString: MainMenu
-  playerObject: {fileID: 0}
+  playerObject: {fileID: 3458934216575460574}
 --- !u!224 &795919392169537195
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4732,10 +4732,10 @@ RectTransform:
   m_Father: {fileID: 795919392551009014}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5943464, y: 0.24576196}
-  m_AnchorMax: {x: 0.8983269, y: 0.59400004}
-  m_AnchoredPosition: {x: -1.449997, y: 33}
-  m_SizeDelta: {x: -2.899994, y: -1.300003}
+  m_AnchorMin: {x: 0.59229183, y: 0.30859855}
+  m_AnchorMax: {x: 0.8983269, y: 0.650699}
+  m_AnchoredPosition: {x: -0.44999695, y: 1.5}
+  m_SizeDelta: {x: -4.899994, y: 1.699997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &795919392379872281
 CanvasRenderer:
@@ -5841,10 +5841,10 @@ RectTransform:
   m_Father: {fileID: 795919392551009014}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.11150982, y: 0.24576196}
-  m_AnchorMax: {x: 0.40434644, y: 0.59400004}
-  m_AnchoredPosition: {x: 100, y: -128}
-  m_SizeDelta: {x: -119.06265, y: -99.4389}
+  m_AnchorMin: {x: 0.18089995, y: 0.09249815}
+  m_AnchorMax: {x: 0.35900003, y: 0.24576196}
+  m_AnchoredPosition: {x: 0, y: 4.5}
+  m_SizeDelta: {x: -6.0626526, y: 3.5610962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1318097683076781521
 CanvasRenderer:
@@ -5869,10 +5869,10 @@ RectTransform:
   m_Father: {fileID: 795919392551009014}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.11150982, y: 0.24576196}
-  m_AnchorMax: {x: 0.40434644, y: 0.59400004}
-  m_AnchoredPosition: {x: 222, y: -128}
-  m_SizeDelta: {x: -119.06265, y: -99.4389}
+  m_AnchorMin: {x: 0.648, y: 0.10550185}
+  m_AnchorMax: {x: 0.823, y: 0.2726989}
+  m_AnchoredPosition: {x: -1.5, y: 0}
+  m_SizeDelta: {x: -6.062622, y: -3.4389038}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1318097683076781525
 GameObject:

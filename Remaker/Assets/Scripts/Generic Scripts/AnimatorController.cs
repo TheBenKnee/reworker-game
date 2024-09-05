@@ -13,10 +13,6 @@ public class AnimatorController : MonoBehaviour
 
     public void SetAnimParameter(string boolName, bool boolValue)
     {
-        if(boolName == "receiving")
-        {
-            Debug.Log("ANIM CHANGE DETECTED: " + boolValue);
-        }
         anim.SetBool(boolName, boolValue);
     }
 
@@ -36,22 +32,22 @@ public class AnimatorController : MonoBehaviour
         {
             if (direction.x > 0)
             {
-                SetAnimParameter("moveX", 1f);
+                SetAnimParameter("xMovement", 1f);
             }
             else if (direction.x < 0)
             {
-                SetAnimParameter("moveX", -1f);
+                SetAnimParameter("xMovement", -1f);
             }
         }
         else if (Mathf.Abs(direction.x) < Mathf.Abs(direction.y))
         {
             if (direction.y > 0)
             {
-                SetAnimParameter("moveY", 1f);
+                SetAnimParameter("yMovement", 1f);
             }
             else if (direction.y < 0)
             {
-                SetAnimParameter("moveY", -1f);
+                SetAnimParameter("yMovement", -1f);
             }
         }
     }

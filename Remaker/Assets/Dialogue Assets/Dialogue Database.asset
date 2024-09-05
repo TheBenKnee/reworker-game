@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
   m_Name: Dialogue Database
   m_EditorClassIdentifier: 
-  version: 1.0.0
+  version: 0.1.0
   author: BenKnee
   description: A test or possibly core dialogue database.
   globalUserScript: 

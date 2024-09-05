@@ -19,7 +19,7 @@ public class MusicManager : MonoBehaviour
     void Start()
     {
         GameObject mine = GameObject.Find("Test");
-        Debug.Log(mine.tag);
+        // Debug.Log(mine.tag);
     }
 
     // Update is called once per frame

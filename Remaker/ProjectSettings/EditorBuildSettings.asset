@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestHouse.unity
     guid: adeea6caefddb2341bc49286e286d786
+  - enabled: 1
+    path: Assets/Scenes/Lake.unity
+    guid: 39e057018e9329240adf6f1529c6480f
   m_configObjects: {}

@@ -12,7 +12,7 @@ public class PanelManager : MonoBehaviour
     [SerializeField] private GameObject introPanel;
     [SerializeField] private GameObject saveButton;
     [SerializeField] private FloatValue gameSpeed;  //Making this a FloatValue instead of a hardcoded '1' allows us to preserve the speed of the game in the event of a game speed change (slow mo/speed up)
-    [SerializeField] private string menuSceneString;
+    [SerializeField] private string menuSceneString = "MainMenu";
     [SerializeField] private GameObject playerObject;
 
     // Update is called once per frame
@@ -75,96 +75,28 @@ public class PanelManager : MonoBehaviour
 
     public void QuitButton()
     {
-        introPanel.SetActive(true);        
-        Time.timeScale = gameSpeed.value;
-        // myGameManager.doDisable();
-        // myGameManager.activeSave = -1;
+        // introPanel.SetActive(true);        
+        Time.timeScale = 1f;
         PixelCrushers.DialogueSystem.DialogueLua.SetVariable("SaveNumber", -1);
         SceneManager.LoadScene(menuSceneString);
     }
 
     public void LoadGame()
     {
-        int currentSave = PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt;
-        Debug.Log("Manually loading scene: " + currentSave);
-        PixelCrushers.SaveSystemMethods test = saveButton.gameObject.GetComponentInChildren(typeof(PixelCrushers.SaveSystemMethods)) as PixelCrushers.SaveSystemMethods;
-        test.LoadFromSlot(currentSave);
+        int saveSlot = PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt;
+        Debug.Log("Manually loading from slot: " + saveSlot);
+        PixelCrushers.SaveSystem.LoadFromSlot(saveSlot);
     }
 
     public void SaveGame()
     {
-        //Debug.Log(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt);
-        // PixelCrushers.DialogueSystem.DialogueLua.SetVariable("SaveNumber", 1);
-        int currentSave = PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt;
-        Debug.Log("Manually saving scene: " + currentSave);
-        PixelCrushers.SaveSystemMethods test = saveButton.gameObject.GetComponentInChildren(typeof(PixelCrushers.SaveSystemMethods)) as PixelCrushers.SaveSystemMethods;
-        test.SaveSlot(currentSave);
-        //PixelCrushers.SaveSystemMethods.SaveSlot(2);
-        // switch(myGameManager.activeSave)
-        // {
-        //     case 1:
-        //         myGameManager.progress1 = myGameManager.progressTmp;
-        //         for(int i = 0; i < myGameManager.playerPersonalityTmp.Length; i++)
-        //         {
-        //             myGameManager.playerPersonality1[i] = myGameManager.playerPersonalityTmp[i];
-        //         }
-        //         break;
-        //     case 2:
-        //         myGameManager.progress2 = myGameManager.progressTmp;
-        //         for(int i = 0; i < myGameManager.activeSave; i++)
-        //         {
-        //             myGameManager.playerPersonality2[i] = myGameManager.playerPersonalityTmp[i];
-        //         }
-        //         break;
-        //     case 3:
-        //         myGameManager.progress3 = myGameManager.progressTmp;
-        //         for(int i = 0; i < myGameManager.activeSave; i++)
-        //         {
-        //             myGameManager.playerPersonality3[i] = myGameManager.playerPersonalityTmp[i];
-        //         }
-        //         break;
-        //     default:
-        //         Debug.Log("Save # not recognized.");
-        //         return;
-        // }
+        int saveSlot = PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt;
+        Debug.Log("Manually saving to slot: " + saveSlot);
+        PixelCrushers.SaveSystem.SaveToSlot(saveSlot);
     }
 
     void Awake()
     {
-        // //Debug.Log("Panel Manager Waking");
-        // myGameManager = GameObject.Find("SaveManager").GetComponent<GameSaveManager>();
-        // switch(myGameManager.activeSave)
-        // {
-        //     case 1:
-        //     {
-        //         if(myGameManager.progress1 >= 1)
-        //         {
-        //             introPanel.gameObject.SetActive(false);
-        //         }
-        //         break;
-        //     }
-        //     case 2:
-        //     {
-        //         if(myGameManager.progress2 >= 1)
-        //         {
-        //             introPanel.gameObject.SetActive(false);
-        //         }
-        //         break;
-        //     }
-        //     case 3:
-        //     {
-        //         if(myGameManager.progress3 >= 1)
-        //         {
-        //             introPanel.gameObject.SetActive(false);
-        //         }
-        //         break;
-        //     }
-        //     default:
-        //     {
-        //         Debug.Log("In PanelManager, Active Save not detected.");
-        //         break;
-        //     }
-        // }
         if(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("Aaaaaa").AsInt > 0)
         {
             introPanel.gameObject.SetActive(false);
