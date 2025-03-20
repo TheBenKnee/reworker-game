@@ -17,7 +17,7 @@ public class PotN : Health
     // Update is called once per frame
     void Update()
     {
-        if (currentHealthValue.value <= 0)
+        if (currentHealthValue <= 0)
         {
             //Setup animator
             anim = GetComponent<AnimatorController>();

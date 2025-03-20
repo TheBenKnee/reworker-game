@@ -13,22 +13,23 @@ public class PanelManager : MonoBehaviour
     [SerializeField] private GameObject saveButton;
     [SerializeField] private FloatValue gameSpeed;  //Making this a FloatValue instead of a hardcoded '1' allows us to preserve the speed of the game in the event of a game speed change (slow mo/speed up)
     [SerializeField] private string menuSceneString = "MainMenu";
-    [SerializeField] private GameObject playerObject;
+    [SerializeField] private StateMachine playerStateMachine;
+    [SerializeField] private PlayerManager playerManager;
 
     // Update is called once per frame
     void Update()
     {
-        if(playerObject.GetComponent<StateMachine>().myState != GenericState.stun)
+        if(playerStateMachine.myState != GenericState.stun)
         {
             // //PAUSE BUTTON
             if (Input.GetButtonUp("Pause"))
             {
-                for(int i = 0; i < this.gameObject.transform.childCount; i++)
+                for(int i = 0; i < gameObject.transform.childCount; i++)
                 {
-                    if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != pauseMenu)
+                    if(gameObject.transform.GetChild(i).gameObject.activeSelf && gameObject.transform.GetChild(i).gameObject != pauseMenu)
                     {
                         //Just turn panel off
-                        ChangePanel(this.gameObject.transform.GetChild(i).gameObject);
+                        ChangePanel(gameObject.transform.GetChild(i).gameObject);
                         return;
                     }
                 }
@@ -39,9 +40,9 @@ public class PanelManager : MonoBehaviour
             //INVENTORY BUTTON
             if (Input.GetButtonDown("Inventory"))
             {
-                for(int i = 0; i < this.gameObject.transform.childCount; i++)
+                for(int i = 0; i < gameObject.transform.childCount; i++)
                 {
-                    if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != inventoryPanel)
+                    if(gameObject.transform.GetChild(i).gameObject.activeSelf && gameObject.transform.GetChild(i).gameObject != inventoryPanel)
                     {
                         //If other panel is open, don't open inventory panel
                         return;
@@ -85,14 +86,16 @@ public class PanelManager : MonoBehaviour
     {
         int saveSlot = PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt;
         Debug.Log("Manually loading from slot: " + saveSlot);
-        PixelCrushers.SaveSystem.LoadFromSlot(saveSlot);
+        // PixelCrushers.SaveSystem.LoadFromSlot(saveSlot);
+        InventorySaveSystem.LoadInventory(playerManager.GetInventorySystem());
     }
 
     public void SaveGame()
     {
         int saveSlot = PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt;
         Debug.Log("Manually saving to slot: " + saveSlot);
-        PixelCrushers.SaveSystem.SaveToSlot(saveSlot);
+        // PixelCrushers.SaveSystem.SaveToSlot(saveSlot);
+        InventorySaveSystem.SaveInventory(playerManager.GetInventorySystem());
     }
 
     void Awake()

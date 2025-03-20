@@ -12,44 +12,44 @@ public class Health : MonoBehaviour
 {
     [Tooltip("Max and current health \n Set this to one for pots")]
     [Header("Health values")]
-    [SerializeField] protected FloatValue maxHealthValue;
-    [SerializeField] protected FloatValue currentHealthValue;
+    [SerializeField] protected float maxHealthValue;
+    [SerializeField] protected float currentHealthValue;
 
     public void SetUpHealth(int amount)
     {
-        currentHealthValue.value = amount;
-        maxHealthValue.value = amount;
+        currentHealthValue = amount;
+        maxHealthValue = amount;
     }
     public void SetHealth(int amount)
     {
-        currentHealthValue.value = amount;
+        currentHealthValue = amount;
     }
 
     public virtual void Damage(int damage)
     {
-        currentHealthValue.value -= damage;
-        if (currentHealthValue.value <= 0)
+        currentHealthValue -= damage;
+        if (currentHealthValue <= 0)
         {
-            currentHealthValue.value = 0;
+            currentHealthValue = 0;
         }
     }
 
     public virtual void Heal(int amount)
     {
-        currentHealthValue.value += amount;
-        if (currentHealthValue.value > maxHealthValue.value)
+        currentHealthValue += amount;
+        if (currentHealthValue > maxHealthValue)
         {
-            currentHealthValue.value = maxHealthValue.value;
+            currentHealthValue = maxHealthValue;
         }
     }
 
     public void Kill()
     {
-        currentHealthValue.value = 0;
+        currentHealthValue = 0;
     }
 
     public virtual void FullHeal()
     {
-        currentHealthValue.value = maxHealthValue.value;
+        currentHealthValue = maxHealthValue;
     }
 }

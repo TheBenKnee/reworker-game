@@ -14,11 +14,11 @@ public class InventoryCanvasManager : MonoBehaviour
     {
         if (Input.GetButtonDown("Inventory"))
         {
-            for(int i = 0; i < this.gameObject.transform.childCount; i++)
+            for(int i = 0; i < gameObject.transform.childCount; i++)
             {
-                if(this.gameObject.transform.GetChild(i).gameObject.activeSelf && this.gameObject.transform.GetChild(i).gameObject != inventoryPanel)
+                if(gameObject.transform.GetChild(i).gameObject.activeSelf && gameObject.transform.GetChild(i).gameObject != inventoryPanel)
                 {
-                    this.gameObject.transform.GetChild(i).gameObject.SetActive(false);
+                    gameObject.transform.GetChild(i).gameObject.SetActive(false);
                 }
             }
             ChangePause();

@@ -11,8 +11,8 @@ public class Chest : Interactable
     [SerializeField] private Notification chestNotification;
     [SerializeField] private SpriteValue spriteValue;
     [SerializeField] private Text dialogText;
-    [SerializeField] private InventoryItem myItem;
-    [SerializeField] private Inventory playerInventory;
+    [SerializeField] private ItemData myItem;
+    [SerializeField] private InventorySystem playerInventory;
 
     // Start is called before the first frame update
     void Start()
@@ -44,11 +44,11 @@ public class Chest : Interactable
         anim.SetAnimParameter("isOpen", true);
         openValue.value = isOpen;
         openValue.resetValue = isOpen;
-        spriteValue.value = myItem.mySprite;
-        dialogText.text = myItem.myDescription;
+        spriteValue.value = myItem.sprite;
+        dialogText.text = myItem.description;
         chestNotification.Raise();
         Debug.Log("Notification Raised");
-        playerInventory.AddItem(myItem);
+        playerInventory.AddItem(myItem, 1);
         contextClueNotification.Raise();
     }
 

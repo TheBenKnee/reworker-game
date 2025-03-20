@@ -13,8 +13,6 @@ public class PlayerMovement : Movement
 
     private void OnEnable() 
     {
-        Debug.Log(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("SaveNumber").AsInt);
-        Debug.Log(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("PlayerGender").AsInt);    
         if(PixelCrushers.DialogueSystem.DialogueLua.GetVariable("PlayerGender").AsInt == 1)
         {
             anim.SetAnimParameter("male", false);

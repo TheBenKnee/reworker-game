@@ -9,9 +9,9 @@ public class PlayerHealth : Health
 
     private void Start()
     {
-        thisStateMachine = this.transform.parent.GetComponent<StateMachine>();
-        SetUpHealth((int)maxHealthValue.value);
-        currentHealthValue.value = maxHealthValue.value;
+        thisStateMachine = transform.parent.GetComponent<StateMachine>();
+        SetUpHealth((int)maxHealthValue);
+        currentHealthValue = maxHealthValue;
         updateHeartsUI.Raise();
     }
 
@@ -19,7 +19,7 @@ public class PlayerHealth : Health
     {
         base.Damage(damage);
         updateHeartsUI.Raise();
-        if(currentHealthValue.value > 0)
+        if(currentHealthValue > 0)
         {
             if (flash)
             {
@@ -34,10 +34,10 @@ public class PlayerHealth : Health
 
     public override void Heal(int amount)
     {
-        currentHealthValue.value += amount;
-        if (currentHealthValue.value > maxHealthValue.value)
+        currentHealthValue += amount;
+        if (currentHealthValue > maxHealthValue)
         {
-            currentHealthValue.value = maxHealthValue.value;
+            currentHealthValue = maxHealthValue;
         }
     }
 
@@ -45,20 +45,20 @@ public class PlayerHealth : Health
     {
         thisStateMachine.ChangeState(GenericState.dead);
         Instantiate(deathEffect, transform.position, transform.rotation);
-        this.transform.parent.gameObject.SetActive(false);
+        transform.parent.gameObject.SetActive(false);
     }
 
     public void increaseMaxHealth()
     {
-        if(maxHealthValue.value < 5)
+        if(maxHealthValue < 5)
         {
-            maxHealthValue.value++;
+            maxHealthValue++;
         }      
         FullHeal();
     }
 
     public override void FullHeal()
     {
-        currentHealthValue.value = maxHealthValue.value;
+        currentHealthValue = maxHealthValue;
     }
 }

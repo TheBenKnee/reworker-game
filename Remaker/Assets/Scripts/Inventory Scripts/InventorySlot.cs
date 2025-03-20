@@ -1,8 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Linq.Expressions;
 
 public class InventorySlot : MonoBehaviour
 {
@@ -12,26 +13,26 @@ public class InventorySlot : MonoBehaviour
     [SerializeField] private Image itemImage;
 
     [Header("Variables from the item")]
-    public InventoryItem thisItem;
-    public InventoryManager thisManager;
+    private InventoryItem thisItem;
+    private InventoryManager thisManager;
 
-    public void Setup(int newItem, Inventory playerInventory, InventoryManager newManager)
+    public void Setup(InventoryItem newItem, InventoryManager newManager)
     {
-        thisItem = playerInventory.getItem(newItem);
-        Debug.Log(thisItem.myName);
+        thisItem = newItem;
         thisManager = newManager;
-        if (thisItem)
+        if (thisItem != null)
         {
-            itemImage.sprite = thisItem.mySprite;
-            itemNumberText.text = "" + thisItem.numberHeld;
+            itemImage.sprite = thisItem.item.sprite;
+            itemNumberText.text = "" + thisItem.quantity;
         }
     }
 
     public void ClickedOn()
     {
-        if(thisItem)
+        if(thisItem != null)
         {
-            thisManager.SetupDescriptionAndButton(thisItem.myDescription, thisItem.isUsable, thisItem);
+            bool isUsable = thisItem.item.itemType == ItemData.ItemType.Consumable || thisItem.item.itemType == ItemData.ItemType.Usable;
+            thisManager.SetupDescriptionAndButton(thisItem.item.description, isUsable, thisItem);
         }
     }
 }

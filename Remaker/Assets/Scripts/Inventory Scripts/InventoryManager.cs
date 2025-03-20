@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -8,7 +8,7 @@ public class InventoryManager : MonoBehaviour
 {
 
     [Header("Inventory Information")]
-    public Inventory playerInventory;
+    [SerializeField] private PlayerManager player;
     [SerializeField] private GameObject blankInventorySlot;
     [SerializeField] private GameObject inventoryPanel;
     [SerializeField] private TextMeshProUGUI descriptionText;
@@ -30,18 +30,18 @@ public class InventoryManager : MonoBehaviour
 
     void MakeInventorySlots()
     {
-        if(playerInventory)
+        if(player != null)
         {
-            for (int i = 0; i < playerInventory.myInventory.Count; i++)
+            foreach(KeyValuePair<string, InventoryItem> kvp in player.GetInventory())
             {
-                if(playerInventory.getItem(playerInventory.myInventory[i]).numberHeld > 0)
+                if(kvp.Value.quantity > 0)
                 {
                     GameObject temp = Instantiate(blankInventorySlot, inventoryPanel.transform.position, Quaternion.identity);
                     temp.transform.SetParent(inventoryPanel.transform);
                     InventorySlot newSlot = temp.GetComponent<InventorySlot>();
                     if (newSlot)
                     {
-                        newSlot.Setup(playerInventory.myInventory[i], playerInventory, this);
+                        newSlot.Setup(kvp.Value, this);
                     }
                 }
             }
@@ -51,7 +51,7 @@ public class InventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-        Debug.Log("Generating Inventory");
+        ItemDatabase.LoadSprites();
         ClearInventorySlots();
         MakeInventorySlots();
         SetTextAndButton("", false);
@@ -74,14 +74,14 @@ public class InventoryManager : MonoBehaviour
 
     public void UseButtonPressed()
     {
-        if(currentItem)
+        if(currentItem != null)
         {
-            currentItem.Use();
+            player.UseItem(currentItem.item.itemID);
             //Clear all inventory slots
             ClearInventorySlots();
-            //Readd the items
+            //Re-add the items
             MakeInventorySlots();
-            if(currentItem.numberHeld == 0)
+            if(currentItem.quantity == 0)
             {
                 SetTextAndButton("", false);
             }

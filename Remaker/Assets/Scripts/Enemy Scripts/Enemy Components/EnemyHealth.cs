@@ -13,13 +13,13 @@ public class EnemyHealth : Health
     void Start()
     {
         thisStateMachine = GetComponent<StateMachine>();
-        currentHealthValue.value = maxHealthValue.value;
+        currentHealthValue = maxHealthValue;
     }
 
     public override void Damage(int damage)
     {
         base.Damage(damage);
-        if (currentHealthValue.value <= 0)
+        if (currentHealthValue <= 0)
         {
             Die();
         }

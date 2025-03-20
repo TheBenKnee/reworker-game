@@ -16,7 +16,7 @@ public class GameSaveManager : MonoBehaviour
     private static GameSaveManager gameSave;
     private bool shouldSave;
     [SerializeField] private int saveFile;
-    [SerializeField] private Inventory myInventory;
+    // [SerializeField] private Inventory myInventory;
     [SerializeField] private List<ScriptableObject> objects = new List<ScriptableObject>();
 
     public int activeSave = -1;
@@ -71,8 +71,8 @@ public class GameSaveManager : MonoBehaviour
     private void OnEnable()
     {
         LoadScriptables();
-        myInventory.myInventory.Clear();
-        InventoryLoad();
+        // myInventory.myInventory.Clear();
+        // InventoryLoad();
         ProgressLoad();
     }
 
@@ -93,7 +93,7 @@ public class GameSaveManager : MonoBehaviour
                     if(progress1 > 0)
                     {
                         SaveScriptables();
-                        InventorySave();
+                        // InventorySave();
                         ProgressSave();                       
                     }
                     break;
@@ -103,7 +103,7 @@ public class GameSaveManager : MonoBehaviour
                     if(progress2 > 0)
                     {
                         SaveScriptables();
-                        InventorySave();
+                        // InventorySave();
                         ProgressSave();
                     }
                     break;
@@ -113,7 +113,7 @@ public class GameSaveManager : MonoBehaviour
                     if(progress3 > 0)
                     {
                         SaveScriptables();
-                        InventorySave();
+                        // InventorySave();
                         ProgressSave();
                     }
                     break;
@@ -221,40 +221,40 @@ public class GameSaveManager : MonoBehaviour
         }
     }
 
-    public void InventorySave()
-    {
-        string contents = "";
-        for(int i = 0; i < myInventory.myInventory.Count; i++)
-        {
-            if(i < myInventory.myInventory.Count - 1)
-            {
-                contents += myInventory.myInventory[i] + ",";
-            }
-            else
-            {
-                contents += myInventory.myInventory[i];
-            }
-        }
-        ItemObject itemsObject = new ItemObject {
-            inventory = contents,
-        };
-        string itemsJson = JsonUtility.ToJson(itemsObject);
-        Debug.Log("Active save going into SaveItems: " + activeSave);
-        SaveSystem.SaveItems(itemsJson, activeSave);
-    }
+    // public void InventorySave()
+    // {
+    //     string contents = "";
+    //     for(int i = 0; i < myInventory.myInventory.Count; i++)
+    //     {
+    //         if(i < myInventory.myInventory.Count - 1)
+    //         {
+    //             contents += myInventory.myInventory[i] + ",";
+    //         }
+    //         else
+    //         {
+    //             contents += myInventory.myInventory[i];
+    //         }
+    //     }
+    //     ItemObject itemsObject = new ItemObject {
+    //         inventory = contents,
+    //     };
+    //     string itemsJson = JsonUtility.ToJson(itemsObject);
+    //     Debug.Log("Active save going into SaveItems: " + activeSave);
+    //     SaveSystem.SaveItems(itemsJson, activeSave);
+    // }
 
     public void ProgressSave()
     {    
         switch(activeSave)
         {
             case 1:
-                player1Coins = myInventory.coins;
+                // player1Coins = myInventory.coins;
                 break;
             case 2:
-                player2Coins = myInventory.coins;
+                // player2Coins = myInventory.coins;
                 break;
             case 3:
-                player3Coins = myInventory.coins;
+                // player3Coins = myInventory.coins;
                 break;
         }
         SaveObject savedObject = new SaveObject {
@@ -275,23 +275,23 @@ public class GameSaveManager : MonoBehaviour
         SaveSystem.SaveProgress(savedJson);
     }
 
-    public void InventoryLoad()
-    {
-        string itemString = SaveSystem.LoadItems(activeSave);
-        if(itemString != null)
-        {
-            ItemObject loaded = JsonUtility.FromJson<ItemObject>(itemString);
-            string[] words = loaded.inventory.Split(',');
-            for(int i = 0; i < words.Length; i++)
-            {
-                if(words[i] == "")
-                {
-                    break;
-                }
-                myInventory.myInventory.Add(int.Parse(words[i]));
-            }
-        }  
-    }
+    // public void InventoryLoad()
+    // {
+    //     string itemString = SaveSystem.LoadItems(activeSave);
+    //     if(itemString != null)
+    //     {
+    //         ItemObject loaded = JsonUtility.FromJson<ItemObject>(itemString);
+    //         string[] words = loaded.inventory.Split(',');
+    //         for(int i = 0; i < words.Length; i++)
+    //         {
+    //             if(words[i] == "")
+    //             {
+    //                 break;
+    //             }
+    //             myInventory.myInventory.Add(int.Parse(words[i]));
+    //         }
+    //     }  
+    // }
 
     public void ProgressLoad()
     {
