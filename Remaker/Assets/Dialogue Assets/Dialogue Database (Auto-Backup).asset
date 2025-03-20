@@ -79,7 +79,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: d6c695fed98b1be47ae833797c2c58d0, type: 3}
+    spritePortrait: {fileID: 21300000, guid: dd19488b312b1534380ea57f9a88c3c6, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 3
@@ -101,7 +101,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 21300000, guid: 9a4d32ac4a510de4bbee3e4d870caacb, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 4
@@ -123,7 +123,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 21300000, guid: f1aa818f9fd0e46479ded10956613781, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 5
@@ -145,7 +145,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 21300000, guid: b5702ce1125b4bb4b945a29db1867c1f, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 6
@@ -189,7 +189,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 21300000, guid: f136da9522d77dc45aaf4e61b5838512, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 8
@@ -211,7 +211,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 21300000, guid: 46495c93b3c659440b5bb0df215bda3a, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 11
@@ -233,7 +233,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 21300000, guid: e91a002745d33744f816a476132c7d91, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 9
@@ -255,7 +255,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 21300000, guid: 058d0b1e6280cc54489aa95217c3eb65, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 10
@@ -277,7 +277,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 0}
+    spritePortrait: {fileID: 21300000, guid: 72fb4b4a2ccbb774ab038bbe9e78a732, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 12
@@ -330,7 +330,7 @@ MonoBehaviour:
     - title: Name
       value: Sword
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Pictures
       value: '[]'
       type: 3
@@ -339,7 +339,7 @@ MonoBehaviour:
       value: A sword. You can somehow tell it's old, yet it is still sharp to the
         touch and unblemished.
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Is Item
       value: True
       type: 2
@@ -453,7 +453,104 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
-      value: 'A '
+      value: A small out of the way glade where it feels like you're being watched.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 4
+    fields:
+    - title: Name
+      value: Forest Pond
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: A swath of green grass surround by trees with a small pond in the middle.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 5
+    fields:
+    - title: Name
+      value: Field Plateau
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: The transition between the southern fields and forests to the flat land
+        of the western city.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 15
+    fields:
+    - title: Name
+      value: City Approach
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: The southern approach to the city, once a river of eager feet, now a
+        stream of fallen leaves.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 14
+    fields:
+    - title: Name
+      value: The City
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: The largest settlement in the region, a hubbub of activity where friends
+        can be made and good times had.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 9
+    fields:
+    - title: Name
+      value: Village Maze
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: A maze-like stretch of ravines which seperate the city and the village.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 10
+    fields:
+    - title: Name
+      value: The Village
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: A quiant village where the 'gang' lives afforded some privacy from the
+        bustling city.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 11
+    fields:
+    - title: Name
+      value: Pathways
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: A winding path along the transition between the impenetrable mountains
+        of the north and the eerie eastern forests.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 12
+    fields:
+    - title: Name
+      value: Graveyard
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: A quiet cove at the threshold of the eastern forest where the region's
+        dead are laid to rest.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 13
+    fields:
+    - title: Name
+      value: Farms
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Near the eastern entrance of the city, the agricultural hub of the region
+        where much of the cities food is grown and harvested.
       type: 0
       typeString: CustomFieldType_Text
   variables:
@@ -1440,7 +1537,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 6}
+    canvasScrollPosition: {x: 0, y: 145}
     canvasZoom: 1
   - id: 3
     fields:
@@ -1923,11 +2020,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 2
         type: 5
@@ -1939,15 +2036,15 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Have you found it?
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -2138,7 +2235,7 @@ MonoBehaviour:
     syncItemsDatabase: {fileID: 0}
     syncLocationsDatabase: {fileID: 0}
     syncVariablesDatabase: {fileID: 0}
-  templateJson: '{"treatItemsAsQuests":true,"actorFields":[{"title":"Name","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Pictures","value":"[]","type":3,"typeString":"CustomFieldType_Files"},{"title":"Description","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"IsPlayer","value":"False","type":2,"typeString":"CustomFieldType_Boolean"}],"itemFields":[{"title":"Name","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Pictures","value":"[]","type":3,"typeString":"CustomFieldType_Files"},{"title":"Description","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Is
+  templateJson: '{"treatItemsAsQuests":true,"actorFields":[{"title":"Name","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Pictures","value":"[]","type":3,"typeString":"CustomFieldType_Files"},{"title":"Description","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"IsPlayer","value":"False","type":2,"typeString":"CustomFieldType_Boolean"},{"title":"","value":"","type":0,"typeString":"CustomFieldType_Text"}],"itemFields":[{"title":"Name","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Pictures","value":"[]","type":3,"typeString":"CustomFieldType_Files"},{"title":"Description","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Is
     Item","value":"True","type":2,"typeString":"CustomFieldType_Boolean"}],"questFields":[{"title":"Name","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Pictures","value":"[]","type":3,"typeString":"CustomFieldType_Files"},{"title":"Description","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Success
     Description","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"Failure
     Description","value":"","type":0,"typeString":"CustomFieldType_Text"},{"title":"State","value":"unassigned","type":0,"typeString":"CustomFieldType_QuestState"},{"title":"Is

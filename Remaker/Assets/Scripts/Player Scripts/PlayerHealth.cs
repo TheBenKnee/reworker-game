@@ -10,7 +10,7 @@ public class PlayerHealth : Health
     private void Start()
     {
         thisStateMachine = transform.parent.GetComponent<StateMachine>();
-        SetUpHealth((int)maxHealthValue);
+        SetUpHealth(maxHealthValue);
         currentHealthValue = maxHealthValue;
         updateHeartsUI.Raise();
     }
@@ -48,11 +48,11 @@ public class PlayerHealth : Health
         transform.parent.gameObject.SetActive(false);
     }
 
-    public void increaseMaxHealth()
+    public void IncreaseMaxHealth(int healthIncreaseAmount)
     {
-        if(maxHealthValue < 5)
+        if(maxHealthValue + healthIncreaseAmount < Constants.MAX_HEART_AMOUNT)
         {
-            maxHealthValue++;
+            maxHealthValue += healthIncreaseAmount;
         }      
         FullHeal();
     }

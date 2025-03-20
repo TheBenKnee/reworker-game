@@ -26,7 +26,7 @@ public class AnimatorController : MonoBehaviour
         return anim.GetBool(boolName);
     }
 
-    public void changeAnim(Vector2 direction)
+    public void ChangeAnim(Vector2 direction)
     {
         if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {

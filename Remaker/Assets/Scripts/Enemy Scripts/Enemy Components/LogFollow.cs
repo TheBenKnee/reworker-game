@@ -23,7 +23,7 @@ public class LogFollow : SimpleFollow
             {
                 thisAnim.SetAnimParameter("wakeUp", true);
                 Vector2 temp = (Vector2)(target.position - transform.position);
-                thisAnim.changeAnim(temp - (Vector2)transform.position);
+                thisAnim.ChangeAnim(temp - (Vector2)transform.position);
                 Motion(temp);
             }
         }

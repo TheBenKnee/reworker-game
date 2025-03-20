@@ -13,7 +13,7 @@ public class LimitedFollow : LogFollow
         {
             thisAnim.SetAnimParameter("wakeUp", true);
             Vector2 temp = (Vector2)(target.position - transform.position);
-            thisAnim.changeAnim(temp);
+            thisAnim.ChangeAnim(temp);
             Motion(temp);
         }
         else if (Vector3.Distance(target.position, transform.position) > chaseRadius || !boundary.bounds.Contains(target.transform.position))

@@ -11,10 +11,10 @@ public class HeartContainer : Powerup
         if (other.gameObject.CompareTag("Player"))
         {
             playerHealth = other.GetComponentInChildren(typeof(PlayerHealth)) as PlayerHealth;
-            playerHealth.increaseMaxHealth();
+            playerHealth.IncreaseMaxHealth(2);
             playerHealth.FullHeal();
             myPowerupNotification.Raise();
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 }

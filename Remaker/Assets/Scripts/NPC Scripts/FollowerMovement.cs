@@ -69,7 +69,7 @@ public class FollowerMovement : SimpleFollow
         //Create a temp 
         Vector3 temp = Vector3.MoveTowards(transform.position, location.position, Time.deltaTime); //, moveSpeed * Time.deltaTime
         //Animate the NPC moving in that direction
-        myAnim.changeAnim(temp - transform.position);
+        myAnim.ChangeAnim(temp - transform.position);
         //Move the actual rigidbody towards that position
         myRigidbody.MovePosition(temp);
         //Change the state to walk

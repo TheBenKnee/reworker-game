@@ -12,8 +12,8 @@ public class Health : MonoBehaviour
 {
     [Tooltip("Max and current health \n Set this to one for pots")]
     [Header("Health values")]
-    [SerializeField] protected float maxHealthValue;
-    [SerializeField] protected float currentHealthValue;
+    [SerializeField] protected int maxHealthValue;
+    [SerializeField] protected int currentHealthValue;
 
     public void SetUpHealth(int amount)
     {
@@ -51,5 +51,15 @@ public class Health : MonoBehaviour
     public virtual void FullHeal()
     {
         currentHealthValue = maxHealthValue;
+    }
+
+    public int GetMaxHealth()
+    {
+        return maxHealthValue;
+    }
+
+    public int GetCurrentHealth()
+    {
+        return currentHealthValue;
     }
 }

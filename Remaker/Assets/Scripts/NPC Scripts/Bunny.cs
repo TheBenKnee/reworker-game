@@ -33,7 +33,7 @@ public class Bunny : MonoBehaviour
     //         {
     //             {
     //                 Vector3 temp = Vector3.MoveTowards(transform.position, target.position, (-moveSpeed) * Time.deltaTime);
-    //                 changeAnim(temp - transform.position);
+    //                 ChangeAnim(temp - transform.position);
     //                 myRigidbody.MovePosition(temp);
     //                 ChangeState(PassiveState.walk);
     //             }
@@ -53,7 +53,7 @@ public class Bunny : MonoBehaviour
     //     anim.SetBool("moving", true);
     // }
 
-    // private void changeAnim(Vector2 direction)
+    // private void ChangeAnim(Vector2 direction)
     // {
     //     if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
     //     {

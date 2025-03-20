@@ -17,7 +17,7 @@ public class Patrol : LogFollow
             if (thisStateMachine.myState != GenericState.stun || thisStateMachine.myState != GenericState.dead)
             {
                 Vector2 temp = (Vector2)(target.position - transform.position);
-                thisAnim.changeAnim(temp);
+                thisAnim.ChangeAnim(temp);
                 Motion(temp);    
             }
         }
@@ -26,7 +26,7 @@ public class Patrol : LogFollow
             if (Vector3.Distance(transform.position, path[currentPoint].position) > roundingDistance)
             {
                 Vector2 temp = (Vector2)(path[currentPoint].position - transform.position);
-                thisAnim.changeAnim(temp);
+                thisAnim.ChangeAnim(temp);
                 Motion(temp);
             }
             else

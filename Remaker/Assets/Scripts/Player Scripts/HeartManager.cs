@@ -9,8 +9,7 @@ public class HeartManager : MonoBehaviour
     [SerializeField] private Sprite fullHeart;
     [SerializeField] private Sprite halfFullHeart;
     [SerializeField] private Sprite emptyHeart;
-    [SerializeField] private FloatValue heartContainers;
-    [SerializeField] private FloatValue playerCurrentHealth;
+    [SerializeField] private PlayerHealth playerHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +20,7 @@ public class HeartManager : MonoBehaviour
     public void InitHearts()
     {
         //Activates and displays all hearts as full
-        for(int i = 0; i < heartContainers.value; i++)
+        for(int i = 0; i <= (playerHealth.GetMaxHealth() - 1) / 2; i++)
         {
             //Slightly redundant check to ensure extra hearts aren't incorrectly created
             if(i < hearts.Length)
@@ -36,28 +35,25 @@ public class HeartManager : MonoBehaviour
     {
         //Refreshes check to see if more hearts should be added.
         InitHearts();
-        //Gets the player's health numerically
-        float tempHealth = playerCurrentHealth.value;
-        //Goes through each of the player's hearts to animate them as full, half, or empty
-        for(int i = 0; i < heartContainers.value; i++)
+        int currentHealth = playerHealth.GetCurrentHealth();
+        int maxHealth = playerHealth.GetMaxHealth();
+        int heartCount = maxHealth / 2; // Each heart represents 2 HP
+
+        for (int i = 0; i < heartCount; i++)
         {
-            if(i <= tempHealth-1)
+            int heartHealth = currentHealth - (i * 2); // How much health is left for this heart slot
+
+            if (heartHealth >= 2)
             {
-                //Display a Full Heart
-                hearts[i].sprite = fullHeart;
+                hearts[i].sprite = fullHeart; // Full heart
+            }
+            else if (heartHealth == 1)
+            {
+                hearts[i].sprite = halfFullHeart; // Half heart
             }
             else
             {
-                if(i >= tempHealth)
-                {
-                    //Display a Empty Heart
-                    hearts[i].sprite = emptyHeart;
-                }
-                else
-                {
-                    //Display a Half Full Heart
-                    hearts[i].sprite = halfFullHeart;
-                }
+                hearts[i].sprite = emptyHeart; // Empty heart
             }
         }
     }
