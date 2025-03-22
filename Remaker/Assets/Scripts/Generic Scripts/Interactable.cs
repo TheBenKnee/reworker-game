@@ -9,6 +9,12 @@ public class Interactable : MonoBehaviour
     [SerializeField] public string otherTag;
     [SerializeField] public Notification contextClueNotification;
 
+    public void ManualRaiseNotification()
+    {
+        Debug.Log("RAISE");
+        contextClueNotification.Raise();
+    }
+
     protected virtual void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag(otherTag) && !other.isTrigger)

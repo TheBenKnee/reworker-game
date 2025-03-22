@@ -16,6 +16,8 @@ public class PanelManager : MonoBehaviour
     [SerializeField] private StateMachine playerStateMachine;
     [SerializeField] private PlayerManager playerManager;
 
+    private bool helloWorld = false;
+
     // Update is called once per frame
     void Update()
     {
@@ -52,6 +54,20 @@ public class PanelManager : MonoBehaviour
             }
         }
         
+    }
+
+    [ContextMenu("PauseUnpause")]
+    public void PauseUnpauseTime()
+    {
+        if(helloWorld)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
+        helloWorld = !helloWorld;
     }
 
     void ChangePanel(GameObject panel)

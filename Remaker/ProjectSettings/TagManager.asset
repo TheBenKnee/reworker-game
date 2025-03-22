@@ -54,3 +54,6 @@ TagManager:
   - name: Breakables
     uniqueID: 2602592253
     locked: 0
+  - name: Dialogue
+    uniqueID: 2608209315
+    locked: 0

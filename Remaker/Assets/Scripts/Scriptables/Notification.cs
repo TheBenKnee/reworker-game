@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-
 [CreateAssetMenu(menuName = "Scriptable Objects/Notification", fileName = "New Notification")]
 public class Notification : ScriptableObject
 {
