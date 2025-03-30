@@ -4,27 +4,25 @@ using UnityEngine.UI;
 
 public class Chest : Interactable
 {
-    
+    public int chestId;
     [SerializeField] private AnimatorController anim;
-    [SerializeField] private BoolValue openValue;
-    [SerializeField] private bool isOpen;
+    [SerializeField] private bool isOpen = false;
     [SerializeField] private Notification chestNotification;
     [SerializeField] private SpriteValue spriteValue;
     [SerializeField] private Text dialogText;
     [SerializeField] private ItemData myItem;
     [SerializeField] private InventorySystem playerInventory;
 
-    // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
-        isOpen = openValue.value;
-        if (isOpen)
-        {
-            anim.SetAnimParameter("isOpen", true);
-        }
+        SaveableObjectManager.Instance.RegisterChest(this);
     }
 
-    // Update is called once per frame
+    void OnDisable()
+    {
+        SaveableObjectManager.Instance.UnregisterChest(this);
+    }
+
     void Update()
     {
         if (playerInRange && Input.GetButtonUp("Interact"))
@@ -37,19 +35,26 @@ public class Chest : Interactable
         }
     }
 
+    public bool IsOpen()
+    {
+        return isOpen;
+    }
+
+    public void QuietOpen()
+    {
+        isOpen = true;
+        anim.SetAnimParameter("isOpen", true);
+    }
 
     void DisplayContents()
     {
-        isOpen = !isOpen;
+        isOpen = true;
         anim.SetAnimParameter("isOpen", true);
-        openValue.value = isOpen;
-        openValue.resetValue = isOpen;
         spriteValue.value = myItem.sprite;
         dialogText.text = myItem.description;
         chestNotification.Raise();
-        Debug.Log("Notification Raised");
         playerInventory.AddItem(myItem, 1);
-        contextClueNotification.Raise();
+        contextClueOff.Raise();
     }
 
     protected override void OnTriggerEnter2D(Collider2D other)
@@ -59,7 +64,7 @@ public class Chest : Interactable
             playerInRange = true;
             if (!isOpen)
             {
-                contextClueNotification.Raise();
+                contextClueOn.Raise();
             }
         }
     }
@@ -71,7 +76,7 @@ public class Chest : Interactable
             playerInRange = false;
             if (!isOpen)
             {
-                contextClueNotification.Raise();
+                contextClueOff.Raise();
             }
         }
     }

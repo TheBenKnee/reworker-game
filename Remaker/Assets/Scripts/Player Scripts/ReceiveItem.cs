@@ -10,23 +10,18 @@ public class ReceiveItem : MonoBehaviour
     [SerializeField] private AnimatorController anim;
     [SerializeField] private StateMachine myState;
     [SerializeField] private bool isActive = false;
-    
-
-    [Header("Dialog Stuff")]
-    [SerializeField] private Notification dialogNotification;
 
     // Start is called before the first frame update
     void Start()
     {
         mySprite.enabled = false;
-        // myState = this.GetComponentInParent(typeof(StateMachine)) as StateMachine;
-        // anim = this.GetComponentInParent(typeof(AnimatorController)) as AnimatorController;
+        myState = GetComponentInParent(typeof(StateMachine)) as StateMachine;
+        anim = GetComponentInParent(typeof(AnimatorController)) as AnimatorController;
     }
 
 
     public void ChangeSpriteState()
     {
-        Debug.Log("Notification Raised 2");
         isActive = !isActive;
         if (isActive)
         {
@@ -48,7 +43,6 @@ public class ReceiveItem : MonoBehaviour
         Debug.Log("Receiving: " + anim.GetAnimBool("receiving"));
         anim.SetAnimParameter("receiving", true);
         Debug.Log("Receiving: " + anim.GetAnimBool("receiving"));
-        //dialogNotification.Raise();
     }
 
 
@@ -59,7 +53,5 @@ public class ReceiveItem : MonoBehaviour
         anim.SetAnimParameter("receiving", false);
         Debug.Log(anim.GetAnimBool("receiving"));
         mySprite.enabled = false;
-        //dialogNotification.Raise();
-
     }
 }

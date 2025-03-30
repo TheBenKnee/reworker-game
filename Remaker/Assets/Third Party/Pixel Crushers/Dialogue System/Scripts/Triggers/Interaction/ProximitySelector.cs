@@ -28,6 +28,8 @@ namespace PixelCrushers.DialogueSystem
     [AddComponentMenu("")] // Use wrapper.
     public class ProximitySelector : MonoBehaviour
     {
+        [SerializeField] private Notification contextClueOff;
+        [SerializeField] private Notification contextClueOn;
 
         /// <summary>
         /// This class defines the textures and size of the targeting reticle.
@@ -349,6 +351,7 @@ namespace PixelCrushers.DialogueSystem
             Usable usable = other.GetComponent<Usable>();
             if (usable != null && usable.enabled)
             {
+                contextClueOn.Raise();
                 SetCurrentUsable(usable);
                 if (!usablesInRange.Contains(usable)) usablesInRange.Add(usable);
                 OnSelectedUsableObject(usable);
@@ -377,6 +380,7 @@ namespace PixelCrushers.DialogueSystem
                 if (usablesInRange.Contains(usable)) usablesInRange.Remove(usable);
                 if (currentUsable == usable)
                 {
+                    contextClueOff.Raise();
                     OnDeselectedUsableObject(usable);
                     toldListenersHaveUsable = false;
                     usablesInRange.RemoveAll(x => x == null || !x.gameObject.activeInHierarchy);

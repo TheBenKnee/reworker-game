@@ -43,7 +43,7 @@ public class NPCInteractable : Interactable
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             //Raise the context to make the interactable inidication pop up
-            contextClueNotification.Raise();
+            contextClueOn.Raise();
             //Communicate that the player is in range
             playerInRange = true;
         }
@@ -55,7 +55,7 @@ public class NPCInteractable : Interactable
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             //Raise the context to make the interactable inidication disable
-            contextClueNotification.Raise();
+            contextClueOff.Raise();
             //Communicate that the player is out of range
             playerInRange = false;
             //Disable the dialog box in case the player hasn't

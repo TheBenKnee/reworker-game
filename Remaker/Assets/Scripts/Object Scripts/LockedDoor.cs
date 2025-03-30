@@ -52,7 +52,7 @@ public class LockedDoor : Interactable
     void Open()
     {
         isOpen = true;
-        contextClueNotification.Raise();
+        contextClueOff.Raise();
         doorSprite.enabled = false;
         doorCollider.enabled = false;
     }
@@ -64,7 +64,7 @@ public class LockedDoor : Interactable
             playerInRange = true;
             if (!isOpen)
             {
-                contextClueNotification.Raise();
+                contextClueOn.Raise();
             }
         }
     }
@@ -76,7 +76,7 @@ public class LockedDoor : Interactable
             playerInRange = false;
             if (!isOpen)
             {
-                contextClueNotification.Raise();
+                contextClueOff.Raise();
             }
         }
     }

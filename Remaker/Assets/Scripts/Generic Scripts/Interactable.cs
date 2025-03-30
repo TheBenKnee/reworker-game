@@ -7,12 +7,12 @@ public class Interactable : MonoBehaviour
 
     [SerializeField] public bool playerInRange;
     [SerializeField] public string otherTag;
-    [SerializeField] public Notification contextClueNotification;
+    [SerializeField] public Notification contextClueOn;
+    [SerializeField] public Notification contextClueOff;
 
     public void ManualRaiseNotification()
     {
-        Debug.Log("RAISE");
-        contextClueNotification.Raise();
+        contextClueOn.Raise();
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D other)
@@ -20,7 +20,7 @@ public class Interactable : MonoBehaviour
         if (other.gameObject.CompareTag(otherTag) && !other.isTrigger)
         {
             playerInRange = true;
-            contextClueNotification.Raise();
+            contextClueOn.Raise();
         }
     }
 
@@ -29,7 +29,7 @@ public class Interactable : MonoBehaviour
         if (other.gameObject.CompareTag(otherTag) && !other.isTrigger)
         {
             playerInRange = false;
-            contextClueNotification.Raise();
+            contextClueOff.Raise();
         }
     }
 }
