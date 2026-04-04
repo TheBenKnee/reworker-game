@@ -17,6 +17,6 @@ public class Projectile : MonoBehaviour
 
     public void Launch(Vector2 initialVel)
     {
-        myRigidbody.velocity = initialVel * moveSpeed;
+        myRigidbody.linearVelocity = initialVel * moveSpeed;
     }
 }

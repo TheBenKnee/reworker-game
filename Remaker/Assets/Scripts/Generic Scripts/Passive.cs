@@ -42,9 +42,9 @@ public class Passive : MonoBehaviour
         if (myRigidbody != null)
         {
             yield return new WaitForSeconds(knockTime);
-            myRigidbody.velocity = Vector2.zero;
+            myRigidbody.linearVelocity = Vector2.zero;
             currentState = PassiveState.idle;
-            myRigidbody.velocity = Vector2.zero;
+            myRigidbody.linearVelocity = Vector2.zero;
         }
     }
 }

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d99e0cb1bc2f10c4cb6d4ffa7ee24d4a
+timeCreated: 1525891041
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 11672
+  packageName: Dialogue System for Unity
+  packageVersion: 2.2.68
+  assetPath: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Standard UI Prefabs/Pro/Mobile/Mobile
+    Standard Dialogue UI.prefab
+  uploadId: 887952
